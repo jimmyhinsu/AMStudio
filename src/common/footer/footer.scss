@@ -1,0 +1,320 @@
+.lastcontact {
+    background-color: #122d33;
+    padding: 100px 0;
+    width: 100%;
+
+    @media (max-width: 576px) {
+        padding: 80px 0;
+    }
+
+    .container {
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 0 20px;
+
+        .threegrid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+
+            @media (max-width: 1024px) {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            @media (max-width: 576px) {
+                display: block;
+            }
+
+            .newsletter {
+                .newss {
+                    margin-bottom: 20px;
+                    h5 {
+                        font-size: 24px;
+                        color: #fff;
+                        font-family: "Marcellus", serif;
+                        font-weight: 500;
+                        letter-spacing: 1px;
+                        margin-bottom: 8px;
+
+                        @media (max-width: 576px) {
+                            font-size: 20px;
+                        }
+                    }
+                    .border1 {
+                        border-bottom: 2px solid #33aac0;
+                        width: 20%;
+                        margin: 0 auto;
+                    }
+                }
+
+                p {
+                    color: #ddd;
+                    font-size: 15px;
+                    margin-bottom: 15px;
+                }
+
+                .mail {
+                    padding: 0 5px;
+                    margin-bottom: 30px;
+
+                    input {
+                        padding: 15px;
+                        width: 100%;
+                        background-color: transparent;
+                        font-size: 15px;
+                        border: 1px solid #787878;
+                        color: #fff;
+                    }
+                }
+
+                .subscr {
+                    padding: 0 5px;
+                    margin-bottom: 20px;
+
+                    button {
+                        padding: 15px 30px;
+                        background-color: #fff;
+                        font-size: 17px;
+                        color: #122d33;
+                        border: none;
+                        font-family: "Marcellus", serif;
+                        width: 100%;
+                        transition: 0.3s ease-in-out;
+                        cursor: pointer;
+
+                        &:hover {
+                            transition: 0.3s ease-in-out;
+                            background-color: #33aac0;
+                            color: #fff;
+                        }
+
+                        @media (max-width: 576px) {
+                            padding: 12px 24px;
+                            font-size: 15px;
+                        }
+                    }
+                }
+
+                @media (max-width: 1024px) {
+                    width: calc(50% - 16px);
+                }
+
+                @media (max-width: 576px) {
+                    width: 100%;
+                }
+            }
+
+            .photozone {
+                padding: 0 10px;
+                border-style: solid;
+                border-width: 0px 1px 0px 1px;
+                border-color: #ffffff17;
+
+                @media (max-width: 1024px) {
+                    border-style: solid;
+                    border-width: 0px 0px 0px 1px;
+                    border-color: #ffffff17;
+                }
+
+                @media (max-width: 576px) {
+                    border-style: solid;
+                    border-width: 1px 0px 1px 0px;
+                    border-color: #ffffff17;
+                    padding: 20px 0;
+                }
+                .photosim {
+                    margin-bottom: 20px;
+                    img {
+                        height: 80px;
+                        width: 80px;
+                    }
+                }
+
+                .loremipsum {
+                    margin-bottom: 15px;
+                    p {
+                        color: #ddd;
+                        font-size: 15px;
+                        font-family: "Raleway", sans-serif;
+                        line-height: 1.5;
+                    }
+                }
+
+                .eighteve {
+                    .flexdiv {
+                        display: flex;
+                        justify-content: center;
+                        padding-bottom: 10px;
+                        .townum {
+                            img {
+                                height: 13px;
+                                width: 13px;
+                            }
+                        }
+
+                        a {
+                            text-decoration-line: none;
+                            font-size: 12px;
+                            padding-left: 8px;
+                            color: #fff;
+                            line-height: 20px;
+                            font-family: "Raleway", sans-serif;
+                        }
+                    }
+                }
+                @media (max-width: 1024px) {
+                    width: calc(50% - 16px);
+                }
+                @media (max-width: 576px) {
+                    width: 100%;
+                }
+            }
+
+            .gallyimg {
+                .gallerylt {
+                    margin-bottom: 20px;
+                    h5 {
+                        font-size: 24px;
+                        color: #fff;
+                        font-family: "Marcellus", serif;
+                        font-weight: 500;
+                        letter-spacing: 1px;
+                        margin-bottom: 8px;
+
+                        @media (max-width: 576px) {
+                            font-size: 20px;
+                        }
+                    }
+                    .border {
+                        border-bottom: 2px solid #33aac0;
+                        width: 20%;
+                        margin: 0 auto;
+                    }
+                }
+
+                .smallimg {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 10px;
+
+                    .imgsss {
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+
+                        img {
+                            height: 100%;
+                            width: 100%;
+
+                            @media (max-width: 576px) {
+                                height: 100%;
+                                width: 100%;
+                            }
+                        }
+
+                        @media (max-width: 1024px) {
+                            height: auto;
+                            width: 100%;
+                        }
+
+                        @media (max-width: 576px) {
+                            height: auto;
+                            width: 100%;
+                        }
+                    }
+                }
+
+                @media (max-width: 1024px) {
+                    padding: 50px 50px 0px 50px;
+                    border-style: solid;
+                    border-width: 1px 0px 0px 0px;
+                    border-color: rgba(255, 255, 255, 0.0901960784);
+                }
+
+                @media (max-width: 1024px) {
+                    padding: 0;
+                }
+            }
+        }
+    }
+}
+
+.copyrightcolor {
+    background-color: #0e262b;
+    padding: 30px 0;
+    height: 100%;
+    width: 100%;
+
+    .container {
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 0 20px;
+
+        .lastlogos {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            @media (max-width: 1024px) {
+                flex-direction: column-reverse;
+            }
+
+            .linecopy {
+                display: flex;
+                text-align: center;
+
+                @media (max-width: 576px) {
+                    display: block;
+                }
+
+                @media (max-width: 1024px) {
+                    justify-content: center;
+                }
+
+                span {
+                    color: #ddd;
+                    font-size: 15px;
+                    font-family: "Raleway", sans-serif;
+
+                    @media (max-width: 576px) {
+                        padding: 0;
+                    }
+                }
+            }
+
+            .logoss {
+                display: flex;
+                text-align: center;
+                gap: 10px;
+
+                @media (max-width: 576px) {
+                    gap: 15px;
+                }
+
+                .threelogos {
+                    .logosdeign {
+                        background-color: #19353a;
+                        border-radius: 50%;
+                        padding: 10px;
+                        height: 40px;
+                        width: 40px;
+
+                        img {
+                            height: 20px;
+                            width: 20px;
+                        }
+                    }
+                }
+                @media (max-width: 1024px) {
+                    display: flex;
+                    justify-content: center;
+                    padding-bottom: 15px;
+                }
+            }
+        }
+    }
+}

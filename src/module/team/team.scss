@@ -1,0 +1,1083 @@
+.bg-relative {
+    position: relative;
+
+    .background-img-one {
+        background-image: url(../../assets/images/photozone-img00025.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 100%;
+        height: 517px;
+        background-size: cover;
+
+        &::before {
+            background-color: transparent;
+            background-image: linear-gradient(180deg, #33aac000 0%, #0e262b 49%);
+            position: absolute;
+            height: 135px;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+            content: " ";
+            opacity: 1;
+            z-index: 10;
+        }
+
+        .backgound-overlay {
+            background-color: rgba(0, 0, 0, 0.65);
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            position: absolute;
+
+            .feature {
+                text-align: center;
+                height: calc(100% - 100px);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+                h1 {
+                    color: #fff;
+                    font-size: 70px;
+                    font-weight: 600;
+                    font-family: "Marcellus", serif;
+
+                    @media (max-width: 576px) {
+                        font-size: 45px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.professinal-sec-main-team {
+    background-color: #0e262b;
+    padding: 120px 0;
+
+    @media (max-width: 576px) {
+        padding: 0;
+    }
+    @media (max-width: 1024px) {
+        padding: 0;
+    }
+
+    .professinal-sec-container {
+        max-width: 1140px;
+        padding: 0 20px;
+        display: flex;
+        margin: 0 auto;
+        position: relative;
+
+        .professinal-sec-width {
+            width: 100%;
+
+            .professinal-sec-flex-main {
+                display: flex;
+                position: relative;
+                width: 100%;
+                flex-wrap: wrap;
+                align-content: flex-start;
+
+                .team-members-logo {
+                    text-align: center;
+                    margin: 0 0 20px 0;
+                    width: 100%;
+
+                    .team-members-logo img {
+                        vertical-align: middle;
+                        display: inline-block;
+                        height: auto;
+                        max-width: 100%;
+                        border: none;
+                        border-radius: 0;
+                        box-shadow: none;
+                    }
+                }
+
+                .team-member-pera {
+                    text-align: center;
+                    margin: 0 0 20px 0;
+                    width: 100%;
+
+                    h6 {
+                        font-family: "Overpass", sans-serif;
+                        color: #dddddd;
+                        font-size: 15px;
+                        font-weight: 900;
+                        line-height: 1.3em;
+                        letter-spacing: 3px;
+                    }
+                }
+
+                .professinal-pera {
+                    text-align: center;
+                    margin: 0 0 20px 0;
+                    width: 100%;
+
+                    h2 {
+                        color: #ffffff;
+                        font-family: "Marcellus", serif;
+                        font-size: 50px;
+                        font-weight: 500;
+                        text-decoration: none;
+                        line-height: 1.1em;
+
+                        @media (max-width: 576px) {
+                            font-size: 35px;
+                        }
+                    }
+                }
+
+                .card-main {
+                    margin: 35px 0 0 0;
+                    width: 100%;
+
+                    .card-container {
+                        position: relative;
+                        display: grid;
+                        grid-template-columns: repeat(4, 1fr);
+                        gap: 20px;
+
+                        @media (max-width: 1024px) {
+                            display: grid;
+                            grid-template-columns: repeat(2, 1fr);
+                            gap: 20px;
+                        }
+
+                        @media (max-width: 576px) {
+                            display: grid;
+                            grid-template-columns: repeat(1, 1fr);
+                            gap: 10px;
+                        }
+                        .card1 {
+                            .card-person-main {
+                                background-image: url(../../assets/images/photozone-img019.jpg);
+                                background-position: center center;
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.5);
+                                padding: 15px 15px 20px 25px;
+                                position: relative;
+                                width: 100%;
+                                align-content: flex-start;
+
+                                .card-person-blank {
+                                    background-color: transparent;
+                                    background-image: linear-gradient(180deg, #0da2ff00 43%, #19353a 78%);
+                                    opacity: 0.95;
+                                    height: 100%;
+                                    width: 100%;
+                                    top: 0;
+                                    left: 0;
+                                    position: absolute;
+                                }
+
+                                .card-social-icon {
+                                    margin-bottom: 0;
+                                    width: 100%;
+                                    background-color: transparent;
+
+                                    .card-social-icon-box {
+                                        text-align: right;
+                                        background-color: transparent;
+
+                                        .card-social-icon-box-grid {
+                                            display: inline-grid;
+                                            grid-template-columns: repeat(1, auto);
+                                            grid-column-gap: 5px;
+                                            grid-row-gap: 6px;
+                                            background-color: transparent;
+
+                                            .social-icon {
+                                                background-color: #fff;
+                                                width: 35.2px;
+                                                height: 35.2px;
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                                text-align: center;
+                                                cursor: pointer;
+
+                                                img {
+                                                    background-color: transparent;
+                                                    width: 16px;
+                                                    height: 16px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .blank {
+                                    margin-bottom: 0;
+                                    width: 100%;
+                                    background-color: transparent;
+                                    height: 200px;
+                                }
+
+                                .photo-work-pera {
+                                    width: 100%;
+                                    margin-bottom: 0;
+                                    margin: 0 0 5px 0;
+                                    position: relative;
+                                    background-color: transparent;
+
+                                    h6 {
+                                        background-color: transparent;
+                                        color: #ffffff;
+                                        font-family: "Raleway", sans-serif;
+                                        font-size: 15px;
+                                        font-weight: normal;
+                                        text-transform: none;
+                                        line-height: 1.6em;
+                                    }
+                                }
+
+                                .name-box-main {
+                                    width: 100%;
+                                    position: relative;
+                                    background-color: transparent;
+
+                                    h5 {
+                                        background-color: transparent;
+                                        color: #ffffff;
+                                        font-family: "Marcellus", serif;
+                                        font-size: 24px;
+                                        font-weight: 500;
+                                        line-height: 1.3em;
+                                    }
+                                }
+                            }
+                        }
+
+                        .card2 {
+                            .card-person-main {
+                                background-image: url(../../assets/images/photozone-img016.jpg);
+                                background-position: center center;
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.5);
+                                padding: 15px 15px 20px 25px;
+                                position: relative;
+                                width: 100%;
+                                align-content: flex-start;
+
+                                .card-person-blank {
+                                    background-color: transparent;
+                                    background-image: linear-gradient(180deg, #0da2ff00 43%, #19353a 78%);
+                                    opacity: 0.95;
+                                    height: 100%;
+                                    width: 100%;
+                                    top: 0;
+                                    left: 0;
+                                    position: absolute;
+                                }
+
+                                .card-social-icon {
+                                    margin-bottom: 0;
+                                    width: 100%;
+                                    background-color: transparent;
+
+                                    .card-social-icon-box {
+                                        text-align: right;
+                                        background-color: transparent;
+
+                                        .card-social-icon-box-grid {
+                                            display: inline-grid;
+                                            grid-template-columns: repeat(1, auto);
+                                            grid-column-gap: 5px;
+                                            grid-row-gap: 6px;
+                                            background-color: transparent;
+
+                                            .social-icon {
+                                                background-color: #fff;
+                                                width: 35.2px;
+                                                height: 35.2px;
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                                text-align: center;
+                                                cursor: pointer;
+
+                                                img {
+                                                    background-color: transparent;
+                                                    width: 16px;
+                                                    height: 16px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .blank {
+                                    margin-bottom: 0;
+                                    width: 100%;
+                                    background-color: transparent;
+                                    height: 200px;
+                                }
+
+                                .photo-work-pera {
+                                    width: 100%;
+                                    margin-bottom: 0;
+                                    margin: 0 0 5px 0;
+                                    position: relative;
+                                    background-color: transparent;
+
+                                    h6 {
+                                        background-color: transparent;
+                                        color: #ffffff;
+                                        font-family: "Raleway", sans-serif;
+                                        font-size: 15px;
+                                        font-weight: normal;
+                                        text-transform: none;
+                                        line-height: 1.6em;
+                                    }
+                                }
+
+                                .name-box-main {
+                                    width: 100%;
+                                    position: relative;
+                                    background-color: transparent;
+
+                                    h5 {
+                                        background-color: transparent;
+                                        color: #ffffff;
+                                        font-family: "Marcellus", serif;
+                                        font-size: 24px;
+                                        font-weight: 500;
+                                        line-height: 1.3em;
+                                    }
+                                }
+                            }
+                        }
+
+                        .card3 {
+                            .card-person-main {
+                                background-image: url(../../assets/images/photozone-img15.jpg);
+                                background-position: center center;
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.5);
+                                padding: 15px 15px 20px 25px;
+                                position: relative;
+                                width: 100%;
+                                align-content: flex-start;
+
+                                .card-person-blank {
+                                    background-color: transparent;
+                                    background-image: linear-gradient(180deg, #0da2ff00 43%, #19353a 78%);
+                                    opacity: 0.95;
+                                    height: 100%;
+                                    width: 100%;
+                                    top: 0;
+                                    left: 0;
+                                    position: absolute;
+                                }
+
+                                .card-social-icon {
+                                    margin-bottom: 0;
+                                    width: 100%;
+                                    background-color: transparent;
+
+                                    .card-social-icon-box {
+                                        text-align: right;
+                                        background-color: transparent;
+
+                                        .card-social-icon-box-grid {
+                                            display: inline-grid;
+                                            grid-template-columns: repeat(1, auto);
+                                            grid-column-gap: 5px;
+                                            grid-row-gap: 6px;
+                                            background-color: transparent;
+
+                                            .social-icon {
+                                                background-color: #fff;
+                                                width: 35.2px;
+                                                height: 35.2px;
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                                text-align: center;
+                                                cursor: pointer;
+
+                                                img {
+                                                    background-color: transparent;
+                                                    width: 16px;
+                                                    height: 16px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .blank {
+                                    margin-bottom: 0;
+                                    width: 100%;
+                                    background-color: transparent;
+                                    height: 200px;
+                                }
+
+                                .photo-work-pera {
+                                    width: 100%;
+                                    margin-bottom: 0;
+                                    margin: 0 0 5px 0;
+                                    position: relative;
+                                    background-color: transparent;
+
+                                    h6 {
+                                        background-color: transparent;
+                                        color: #ffffff;
+                                        font-family: "Raleway", sans-serif;
+                                        font-size: 15px;
+                                        font-weight: normal;
+                                        text-transform: none;
+                                        line-height: 1.6em;
+                                    }
+                                }
+
+                                .name-box-main {
+                                    width: 100%;
+                                    position: relative;
+                                    background-color: transparent;
+
+                                    h5 {
+                                        background-color: transparent;
+                                        color: #ffffff;
+                                        font-family: "Marcellus", serif;
+                                        font-size: 24px;
+                                        font-weight: 500;
+                                        line-height: 1.3em;
+                                    }
+                                }
+                            }
+                        }
+
+                        .card4 {
+                            .card-person-main {
+                                background-image: url(../../assets/images/photozone-img037.jpg);
+                                background-position: center center;
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.5);
+                                padding: 15px 15px 20px 25px;
+                                position: relative;
+                                width: 100%;
+                                align-content: flex-start;
+
+                                .card-person-blank {
+                                    background-color: transparent;
+                                    background-image: linear-gradient(180deg, #0da2ff00 43%, #19353a 78%);
+                                    opacity: 0.95;
+                                    height: 100%;
+                                    width: 100%;
+                                    top: 0;
+                                    left: 0;
+                                    position: absolute;
+                                }
+
+                                .card-social-icon {
+                                    margin-bottom: 0;
+                                    width: 100%;
+                                    background-color: transparent;
+
+                                    .card-social-icon-box {
+                                        text-align: right;
+                                        background-color: transparent;
+
+                                        .card-social-icon-box-grid {
+                                            display: inline-grid;
+                                            grid-template-columns: repeat(1, auto);
+                                            grid-column-gap: 5px;
+                                            grid-row-gap: 6px;
+                                            background-color: transparent;
+
+                                            .social-icon {
+                                                background-color: #fff;
+                                                width: 35.2px;
+                                                height: 35.2px;
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                                text-align: center;
+                                                cursor: pointer;
+
+                                                img {
+                                                    background-color: transparent;
+                                                    width: 16px;
+                                                    height: 16px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .blank {
+                                    margin-bottom: 0;
+                                    width: 100%;
+                                    background-color: transparent;
+                                    height: 200px;
+                                }
+
+                                .photo-work-pera {
+                                    width: 100%;
+                                    margin-bottom: 0;
+                                    margin: 0 0 5px 0;
+                                    position: relative;
+                                    background-color: transparent;
+
+                                    h6 {
+                                        background-color: transparent;
+                                        color: #ffffff;
+                                        font-family: "Raleway", sans-serif;
+                                        font-size: 15px;
+                                        font-weight: normal;
+                                        text-transform: none;
+                                        line-height: 1.6em;
+                                    }
+                                }
+
+                                .name-box-main {
+                                    width: 100%;
+                                    position: relative;
+                                    background-color: transparent;
+
+                                    h5 {
+                                        background-color: transparent;
+                                        color: #ffffff;
+                                        font-family: "Marcellus", serif;
+                                        font-size: 24px;
+                                        font-weight: 500;
+                                        line-height: 1.3em;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .card-main-one {
+                    margin: 35px 0 0 0;
+                    width: 100%;
+
+                    .card-container {
+                        position: relative;
+                        display: grid;
+                        grid-template-columns: repeat(4, 1fr);
+                        gap: 20px;
+
+                        @media (max-width: 1024px) {
+                            display: grid;
+                            grid-template-columns: repeat(2, 1fr);
+                            gap: 20px;
+                        }
+
+                        @media (max-width: 576px) {
+                            display: grid;
+                            grid-template-columns: repeat(1, 1fr);
+                            gap: 10px;
+                        }
+                        .card5 {
+                            .card-person-main {
+                                background-image: url(../../assets/images/photozone-img038.jpg);
+                                background-position: center center;
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.5);
+                                padding: 15px 15px 20px 25px;
+                                position: relative;
+                                width: 100%;
+                                align-content: flex-start;
+
+                                .card-person-blank {
+                                    background-color: transparent;
+                                    background-image: linear-gradient(180deg, #0da2ff00 43%, #19353a 78%);
+                                    opacity: 0.95;
+                                    height: 100%;
+                                    width: 100%;
+                                    top: 0;
+                                    left: 0;
+                                    position: absolute;
+                                }
+
+                                .card-social-icon {
+                                    margin-bottom: 0;
+                                    width: 100%;
+                                    background-color: transparent;
+
+                                    .card-social-icon-box {
+                                        text-align: right;
+                                        background-color: transparent;
+
+                                        .card-social-icon-box-grid {
+                                            display: inline-grid;
+                                            grid-template-columns: repeat(1, auto);
+                                            grid-column-gap: 5px;
+                                            grid-row-gap: 6px;
+                                            background-color: transparent;
+
+                                            .social-icon {
+                                                background-color: #fff;
+                                                width: 35.2px;
+                                                height: 35.2px;
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                                text-align: center;
+                                                cursor: pointer;
+
+                                                img {
+                                                    background-color: transparent;
+                                                    width: 16px;
+                                                    height: 16px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .blank {
+                                    margin-bottom: 0;
+                                    width: 100%;
+                                    background-color: transparent;
+                                    height: 200px;
+                                }
+
+                                .photo-work-pera {
+                                    width: 100%;
+                                    margin-bottom: 0;
+                                    margin: 0 0 5px 0;
+                                    position: relative;
+                                    background-color: transparent;
+
+                                    h6 {
+                                        background-color: transparent;
+                                        color: #ffffff;
+                                        font-family: "Raleway", sans-serif;
+                                        font-size: 15px;
+                                        font-weight: normal;
+                                        text-transform: none;
+                                        line-height: 1.6em;
+                                    }
+                                }
+
+                                .name-box-main {
+                                    width: 100%;
+                                    position: relative;
+                                    background-color: transparent;
+
+                                    h5 {
+                                        background-color: transparent;
+                                        color: #ffffff;
+                                        font-family: "Marcellus", serif;
+                                        font-size: 24px;
+                                        font-weight: 500;
+                                        line-height: 1.3em;
+                                    }
+                                }
+                            }
+                        }
+
+                        .card6 {
+                            .card-person-main {
+                                background-image: url(../../assets/images/photozone-img037.jpg);
+                                background-position: center center;
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.5);
+                                padding: 15px 15px 20px 25px;
+                                position: relative;
+                                width: 100%;
+                                align-content: flex-start;
+
+                                .card-person-blank {
+                                    background-color: transparent;
+                                    background-image: linear-gradient(180deg, #0da2ff00 43%, #19353a 78%);
+                                    opacity: 0.95;
+                                    height: 100%;
+                                    width: 100%;
+                                    top: 0;
+                                    left: 0;
+                                    position: absolute;
+                                }
+
+                                .card-social-icon {
+                                    margin-bottom: 0;
+                                    width: 100%;
+                                    background-color: transparent;
+
+                                    .card-social-icon-box {
+                                        text-align: right;
+                                        background-color: transparent;
+
+                                        .card-social-icon-box-grid {
+                                            display: inline-grid;
+                                            grid-template-columns: repeat(1, auto);
+                                            grid-column-gap: 5px;
+                                            grid-row-gap: 6px;
+                                            background-color: transparent;
+
+                                            .social-icon {
+                                                background-color: #fff;
+                                                width: 35.2px;
+                                                height: 35.2px;
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                                text-align: center;
+                                                cursor: pointer;
+
+                                                img {
+                                                    background-color: transparent;
+                                                    width: 16px;
+                                                    height: 16px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .blank {
+                                    margin-bottom: 0;
+                                    width: 100%;
+                                    background-color: transparent;
+                                    height: 200px;
+                                }
+
+                                .photo-work-pera {
+                                    width: 100%;
+                                    margin-bottom: 0;
+                                    margin: 0 0 5px 0;
+                                    position: relative;
+                                    background-color: transparent;
+
+                                    h6 {
+                                        background-color: transparent;
+                                        color: #ffffff;
+                                        font-family: "Raleway", sans-serif;
+                                        font-size: 15px;
+                                        font-weight: normal;
+                                        text-transform: none;
+                                        line-height: 1.6em;
+                                    }
+                                }
+
+                                .name-box-main {
+                                    width: 100%;
+                                    position: relative;
+                                    background-color: transparent;
+
+                                    h5 {
+                                        background-color: transparent;
+                                        color: #ffffff;
+                                        font-family: "Marcellus", serif;
+                                        font-size: 24px;
+                                        font-weight: 500;
+                                        line-height: 1.3em;
+                                    }
+                                }
+                            }
+                        }
+
+                        .card7 {
+                            .card-person-main {
+                                background-image: url(../../assets/images/photozone-img040.jpg);
+                                background-position: center center;
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.5);
+                                padding: 15px 15px 20px 25px;
+                                position: relative;
+                                width: 100%;
+                                align-content: flex-start;
+
+                                .card-person-blank {
+                                    background-color: transparent;
+                                    background-image: linear-gradient(180deg, #0da2ff00 43%, #19353a 78%);
+                                    opacity: 0.95;
+                                    height: 100%;
+                                    width: 100%;
+                                    top: 0;
+                                    left: 0;
+                                    position: absolute;
+                                }
+
+                                .card-social-icon {
+                                    margin-bottom: 0;
+                                    width: 100%;
+                                    background-color: transparent;
+
+                                    .card-social-icon-box {
+                                        text-align: right;
+                                        background-color: transparent;
+
+                                        .card-social-icon-box-grid {
+                                            display: inline-grid;
+                                            grid-template-columns: repeat(1, auto);
+                                            grid-column-gap: 5px;
+                                            grid-row-gap: 6px;
+                                            background-color: transparent;
+
+                                            .social-icon {
+                                                background-color: #fff;
+                                                width: 35.2px;
+                                                height: 35.2px;
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                                text-align: center;
+                                                cursor: pointer;
+
+                                                img {
+                                                    background-color: transparent;
+                                                    width: 16px;
+                                                    height: 16px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .blank {
+                                    margin-bottom: 0;
+                                    width: 100%;
+                                    background-color: transparent;
+                                    height: 200px;
+                                }
+
+                                .photo-work-pera {
+                                    width: 100%;
+                                    margin-bottom: 0;
+                                    margin: 0 0 5px 0;
+                                    position: relative;
+                                    background-color: transparent;
+
+                                    h6 {
+                                        background-color: transparent;
+                                        color: #ffffff;
+                                        font-family: "Raleway", sans-serif;
+                                        font-size: 15px;
+                                        font-weight: normal;
+                                        text-transform: none;
+                                        line-height: 1.6em;
+                                    }
+                                }
+
+                                .name-box-main {
+                                    width: 100%;
+                                    position: relative;
+                                    background-color: transparent;
+
+                                    h5 {
+                                        background-color: transparent;
+                                        color: #ffffff;
+                                        font-family: "Marcellus", serif;
+                                        font-size: 24px;
+                                        font-weight: 500;
+                                        line-height: 1.3em;
+                                    }
+                                }
+                            }
+                        }
+
+                        .card8 {
+                            .card-person-main {
+                                background-image: url(../../assets/images/photozone-img039.jpg);
+                                background-position: center center;
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.5);
+                                padding: 15px 15px 20px 25px;
+                                position: relative;
+                                width: 100%;
+                                align-content: flex-start;
+
+                                .card-person-blank {
+                                    background-color: transparent;
+                                    background-image: linear-gradient(180deg, #0da2ff00 43%, #19353a 78%);
+                                    opacity: 0.95;
+                                    height: 100%;
+                                    width: 100%;
+                                    top: 0;
+                                    left: 0;
+                                    position: absolute;
+                                }
+
+                                .card-social-icon {
+                                    margin-bottom: 0;
+                                    width: 100%;
+                                    background-color: transparent;
+
+                                    .card-social-icon-box {
+                                        text-align: right;
+                                        background-color: transparent;
+
+                                        .card-social-icon-box-grid {
+                                            display: inline-grid;
+                                            grid-template-columns: repeat(1, auto);
+                                            grid-column-gap: 5px;
+                                            grid-row-gap: 6px;
+                                            background-color: transparent;
+
+                                            .social-icon {
+                                                background-color: #fff;
+                                                width: 35.2px;
+                                                height: 35.2px;
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                                text-align: center;
+                                                cursor: pointer;
+
+                                                img {
+                                                    background-color: transparent;
+                                                    width: 16px;
+                                                    height: 16px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .blank {
+                                    margin-bottom: 0;
+                                    width: 100%;
+                                    background-color: transparent;
+                                    height: 200px;
+                                }
+
+                                .photo-work-pera {
+                                    width: 100%;
+                                    margin-bottom: 0;
+                                    margin: 0 0 5px 0;
+                                    position: relative;
+                                    background-color: transparent;
+
+                                    h6 {
+                                        background-color: transparent;
+                                        color: #ffffff;
+                                        font-family: "Raleway", sans-serif;
+                                        font-size: 15px;
+                                        font-weight: normal;
+                                        text-transform: none;
+                                        line-height: 1.6em;
+                                    }
+                                }
+
+                                .name-box-main {
+                                    width: 100%;
+                                    position: relative;
+                                    background-color: transparent;
+
+                                    h5 {
+                                        background-color: transparent;
+                                        color: #ffffff;
+                                        font-family: "Marcellus", serif;
+                                        font-size: 24px;
+                                        font-weight: 500;
+                                        line-height: 1.3em;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.involvenow {
+    background-image: url(../../assets/images/photozone-img22.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 692px;
+    position: relative;
+
+    &::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: "";
+        background-color: rgba(0, 0, 0, 0.6);
+        z-index: 9;
+    }
+
+    .conatiner {
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 0 20px;
+
+        .baclrelet {
+            .back-color {
+                width: 33%;
+                background-color: rgba(14, 38, 43, 0.8);
+                padding: 50px;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                z-index: 10;
+                @media (max-width: 1024px) {
+                    width: 90%;
+                }
+
+                .involimg {
+                    img {
+                        margin-bottom: 15px;
+                    }
+                }
+                h6 {
+                    color: #fff;
+                    font-size: 15px;
+                    letter-spacing: 3px;
+                    font-family: "Marcellus", serif;
+                    margin-bottom: 20px;
+                }
+                h2 {
+                    font-size: 50px;
+                    color: #fff;
+                    font-weight: 500;
+                    margin-bottom: 20px;
+
+                    @media (max-width: 576px) {
+                        font-size: 35px;
+                    }
+                }
+                p {
+                    font-size: 15px;
+                    color: #ddd;
+                    margin-bottom: 35px;
+                    font-family: "Raleway", sans-serif;
+                }
+
+                .joinus {
+                    button {
+                        cursor: pointer;
+                        padding: 15px 30px;
+                        border: none;
+                        color: #000000;
+                        background-color: #fff;
+                        font-size: 17px;
+                        font-family: "Marcellus", serif;
+
+                        &:hover {
+                            background-color: #33aac0;
+                            color: #fff;
+                        }
+                        @media (max-width: 576px) {
+                            font-size: 15px;
+                            padding: 12px 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
