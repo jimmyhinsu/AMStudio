@@ -3,12 +3,10 @@ import './mansory.scss';
 import bosa2 from "../../assets/images/bosa-photography-img12.png";
 import users from "../../assets/icons/users.png";
 import videocamera from "../../assets/icons/video-camera.png";
-// import photo10 from "../../aseets/images/photozone-img010.jpg";
-// import photo11 from "../../aseets/images/photozone-img011.jpg";
-// import photo14 from "../../aseets/images/photozone-img014.jpg";
-// import photo15 from "../../aseets/images/photozone-img015.jpg";
-// import photo13 from "../../aseets/images/photozone-img013.jpg";
-// import photo12 from "../../aseets/images/photozone-img012.jpg";
+import photo10 from "../../assets/images/photozone-img010.jpg";
+import photo14 from "../../assets/images/photozone-img014.jpg";
+import photo15 from "../../assets/images/photozone-img015.jpg";
+import photo13 from "../../assets/images/photozone-img013.jpg"
 // import photo24 from "../../aseets/images/photozone-img024.jpg";
 import trophy from "../../assets/icons/trophy.png";
 import camera1 from "../../assets/icons/camera1.png";
@@ -33,12 +31,12 @@ export default function Mansory() {
                 </div>
             </div>
 
-            {/* <div className='gallery-mano'>
+            <div className='gallery-mano'>
                 <div className='toppaddi'>
                     <div className='container'>
                         <div className='logo-img'>
                             <div className='checkout'>
-                                <img src={bosa2} />
+                                <img src={bosa2} alt='arror' />
                                 <p>PHOTO GALLERY </p>
                                 <h2>Checkout Our Gallery</h2>
                             </div>
@@ -47,24 +45,24 @@ export default function Mansory() {
                                 <div className='allimgs'>
                                     <div className='firtsline'>
                                         <div data-aos="fade-down-right" className='imgsmarr'>
-                                            <img src={photo11} />
+                                            <img src={photo15} alt='arror' />
                                         </div>
                                         <div data-aos="fade-down-right" className='imgsmarr'>
-                                            <img src={photo10} />
+                                            <img src={photo10} alt='arror' />
                                         </div>
                                         <div data-aos="fade-down-right" className='imgsmarr'>
-                                            <img src={photo14} />
+                                            <img src={photo14} alt='arror' />
                                         </div>
                                     </div>
                                     <div className='secline'>
                                         <div data-aos="fade-down-left" className='imgsmarr'>
-                                            <img src={photo15} />
+                                            <img src={photo13} alt='arror' />
                                         </div>
                                         <div data-aos="fade-down-left" className='imgsmarr'>
-                                            <img src={photo13} />
+                                            <img src={photo14} alt='arror' />
                                         </div>
                                         <div data-aos="fade-down-left" className='imgsmarr'>
-                                            <img src={photo12} />
+                                            <img src={photo15} alt='arror' />
                                         </div>
                                     </div>
                                 </div>
@@ -72,7 +70,7 @@ export default function Mansory() {
                         </div>
                     </div>
                 </div>
-            </div> */}
+            </div>
 
             <div className='colorfullgirl-one'>
                 <div className='container'>

@@ -53,123 +53,123 @@
     }
 }
 
-// .gallery-mano {
-//     background-color: #0e262b;
-//     width: 100%;
-//     height: 100%;
-//     overflow: hidden;
+.gallery-mano {
+    background-color: #0e262b;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 
-//     .toppaddi {
-//         padding: 120px 0 80px 0;
+    .toppaddi {
+        padding: 0 0 80px 0;
 
-//         @media (max-width: 576px) {
-//             padding: 0;
-//         }
+        @media (max-width: 576px) {
+            padding: 0;
+        }
 
-//         .container {
-//             max-width: 1140px;
-//             margin: 0 auto;
-//             padding: 0 20px;
+        .container {
+            max-width: 1140px;
+            margin: 0 auto;
+            padding: 0 20px;
 
-//             .logo-img {
-//                 text-align: center;
+            .logo-img {
+                text-align: center;
 
-//                 .checkout {
-//                     img {
-//                         margin-bottom: 10px;
-//                     }
+                .checkout {
+                    img {
+                        margin-bottom: 10px;
+                    }
 
-//                     p {
-//                         margin-bottom: 10px;
-//                         color: #ddd;
-//                         font-size: 15px;
-//                         letter-spacing: 3px;
-//                         font-weight: 600;
-//                     }
+                    p {
+                        margin-bottom: 10px;
+                        color: #ddd;
+                        font-size: 15px;
+                        letter-spacing: 3px;
+                        font-weight: 600;
+                    }
 
-//                     h2 {
-//                         color: #fff;
-//                         font-size: 50px;
-//                         font-weight: 500;
+                    h2 {
+                        color: #fff;
+                        font-size: 50px;
+                        font-weight: 500;
 
-//                         @media (max-width: 576px) {
-//                             font-size: 35px;
-//                         }
-//                     }
-//                 }
+                        @media (max-width: 576px) {
+                            font-size: 35px;
+                        }
+                    }
+                }
 
-//                 .allimgs {
-//                     display: grid;
-//                     grid-template-columns: repeat(2, 1fr);
-//                     gap: 20px;
-//                     margin-top: 35px;
+                .allimgs {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 20px;
+                    margin-top: 35px;
 
-//                     @media (max-width: 576px) {
-//                         display: grid;
-//                         grid-template-columns: repeat(1, 1fr);
-//                         gap: 0px;
-//                         text-align: center;
-//                     }
+                    @media (max-width: 576px) {
+                        display: grid;
+                        grid-template-columns: repeat(1, 1fr);
+                        gap: 0px;
+                        text-align: center;
+                    }
 
-//                     .firtsline {
-//                         display: block;
+                    .firtsline {
+                        display: block;
 
-//                         @media (max-width: 576px) {
-//                             display: flex;
-//                             flex-wrap: wrap;
-//                             justify-content: center;
-//                         }
+                        @media (max-width: 576px) {
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                        }
 
-//                         .imgsmarr {
-//                             margin-bottom: 20px;
+                        .imgsmarr {
+                            margin-bottom: 20px;
 
-//                             img {
-//                                 height: 100%;
-//                                 width: 100%;
-//                                 &:hover {
-//                                     opacity: 0.6;
-//                                 }
-//                             }
+                            img {
+                                height: 100%;
+                                width: 100%;
+                                &:hover {
+                                    opacity: 0.6;
+                                }
+                            }
 
-//                             @media (max-width: 1024px) {
-//                                 width: 350px;
-//                             }
+                            @media (max-width: 1024px) {
+                                width: 100%;
+                            }
 
-//                             @media (max-width: 670px) {
-//                                 width: 100%;
-//                             }
-//                         }
-//                     }
+                            @media (max-width: 670px) {
+                                width: 100%;
+                            }
+                        }
+                    }
 
-//                     .secline {
-//                         display: block;
-//                         @media (max-width: 576px) {
-//                             display: flex;
-//                             flex-wrap: wrap;
-//                             justify-content: center;
-//                         }
-//                         .imgsmarr {
-//                             margin-bottom: 20px;
-//                             img {
-//                                 height: 100%;
-//                                 width: 100%;
-//                                 &:hover {
-//                                     opacity: 0.6;
-//                                 }
-//                             }
-//                             @media (max-width: 1024px) {
-//                                 width: 350px;
-//                             }
-//                             @media (max-width: 670px) {
-//                                 width: 100%;
-//                             }
-//                         }
-//                     }
-//                 }
-//             }
-//         }
-//     }
-// }
+                    .secline {
+                        display: block;
+                        @media (max-width: 576px) {
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                        }
+                        .imgsmarr {
+                            margin-bottom: 20px;
+                            img {
+                                height: 100%;
+                                width: 100%;
+                                &:hover {
+                                    opacity: 0.6;
+                                }
+                            }
+                            @media (max-width: 1024px) {
+                                width: 100%;
+                            }
+                            @media (max-width: 670px) {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 .colorfullgirl-one {
     background-image: url(../../assets/images/photozone-img25.jpg);
@@ -255,6 +255,10 @@
                 }
             }
         }
+    }
+
+    .slick-arrow {
+        display: none !important;
     }
 }
 

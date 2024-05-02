@@ -9,7 +9,15 @@ import studio from "../../assets/icons/video-camera-s.png";
 import photoss from "../../assets/icons/imagesss.png";
 import camera2 from "../../assets/icons/camerasss.png";
 import print from "../../assets/icons/printss.png";
-
+import prewedding from "../../assets/images/prewedding.jpg";
+import wedding from "../../assets/images/wedding.jpg";
+import exhibition from "../../assets/images/exhibition.jpg";
+import birth from "../../assets/images/birthday.jpg";
+import Corporate from "../../assets/images/i.webp";
+import product from "../../assets/images/product.jpg";
+import babyshower from "../../assets/images/baby shower.jpg";
+import engagement from "../../assets/images/engagement.jpg";
+import cradle from "../../assets/images/cradle.jpg";
 export default function About() {
     return (
         <>
@@ -38,20 +46,131 @@ export default function About() {
                                 <p>Magnam consequatur ipsa faucibus porro accusamus nostrud, a odit vitae! Duis cumque, vivamus turpis, et, nunc necessitatibus hendrerit! Temporibus, eos laborum porttitor perspiciatis consequat, accusamus eos incididunt odit porta class, ridiculus fusce! Lorem ipsum dolor
                                     sit amet, consectetur adipiscing elit.</p>
                             </div>
-                            <div className='videomaindiv'>
-                                <div className='twogirls'>
-                                    <div className='bgblacks'></div>
-                                </div>
-                                <div className='ourskills'>
-                                    <div className='skills'>
-                                        <h4>Our Skills</h4>
-                                    </div>
-                                    <div className='tortor'>
-                                        <p>Tortor ante autem consectetur rerum numquam eligendi nullam doloribus cum temporibus litora est?
-                                            Laoreet, officia delectus debitis faucibus cupidatat ante? Deleniti aliquid quisquam. Lacus modi officia delectus officia.</p>
+
+
+                            <div class="recent-blog-container">
+                                <div class="recent-blog-flex-main">
+                                    <div class="Photograph-tow-card-div-flex-main">
+                                        <div class="Photograph-tow-card-div-card-one">
+                                            <div class="Photograph-tow-card-div-card-personl-image">
+                                                <div class="Photograph-tow-card-div-card-personl-image-inner">
+                                                    <img src={prewedding} alt='error' />
+                                                </div>
+                                            </div>
+                                            <div class="camera-div-pera">
+                                                <div class="camera-div-pera-main">
+                                                    <p> Prewedding</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="Photograph-tow-card-div-card-one">
+                                            <div class="Photograph-tow-card-div-card-personl-image">
+                                                <div class="Photograph-tow-card-div-card-personl-image-inner">
+                                                    <img src={engagement} alt='error' />
+                                                </div>
+                                            </div>
+                                            <div class="camera-div-pera">
+                                                <div class="camera-div-pera-main">
+                                                    <p> Engagement Ceremony</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="Photograph-tow-card-div-card-one">
+                                            <div class="Photograph-tow-card-div-card-personl-image">
+                                                <div class="Photograph-tow-card-div-card-personl-image-inner">
+                                                    <img src={wedding} alt='error' />
+                                                </div>
+                                            </div>
+                                            <div class="camera-div-pera">
+                                                <div class="camera-div-pera-main">
+                                                    <p>Wedding Ceremony</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="Photograph-tow-card-div-card-one">
+                                            <div class="Photograph-tow-card-div-card-personl-image">
+                                                <div class="Photograph-tow-card-div-card-personl-image-inner">
+                                                    <img src={birth} alt='error' />
+                                                </div>
+                                            </div>
+                                            <div class="camera-div-pera">
+                                                <div class="camera-div-pera-main">
+                                                    <p>Birthday Celebration</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="Photograph-tow-card-div-card-one">
+                                            <div class="Photograph-tow-card-div-card-personl-image">
+                                                <div class="Photograph-tow-card-div-card-personl-image-inner">
+                                                    <img src={cradle} alt='error' />
+                                                </div>
+                                            </div>
+                                            <div class="camera-div-pera">
+                                                <div class="camera-div-pera-main">
+                                                    <p>Cradle Ceremony</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="Photograph-tow-card-div-card-one">
+                                            <div class="Photograph-tow-card-div-card-personl-image">
+                                                <div class="Photograph-tow-card-div-card-personl-image-inner">
+                                                    <img src={babyshower} alt='error' />
+                                                </div>
+                                            </div>
+                                            <div class="camera-div-pera">
+                                                <div class="camera-div-pera-main">
+                                                    <p>Baby Shower</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="Photograph-tow-card-div-card-one">
+                                            <div class="Photograph-tow-card-div-card-personl-image">
+                                                <div class="Photograph-tow-card-div-card-personl-image-inner">
+                                                    <img src={Corporate} alt='error' />
+                                                </div>
+                                            </div>
+                                            <div class="camera-div-pera">
+                                                <div class="camera-div-pera-main">
+                                                    <p> Corporate Functions</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="Photograph-tow-card-div-card-one">
+                                            <div class="Photograph-tow-card-div-card-personl-image">
+                                                <div class="Photograph-tow-card-div-card-personl-image-inner">
+                                                    <img src={exhibition} alt='error' />
+                                                </div>
+                                            </div>
+                                            <div class="camera-div-pera">
+                                                <div class="camera-div-pera-main">
+                                                    <p>Exhibition</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="Photograph-tow-card-div-card-one">
+                                            <div class="Photograph-tow-card-div-card-personl-image">
+                                                <div class="Photograph-tow-card-div-card-personl-image-inner">
+                                                    <img src={product} alt='error' />
+                                                </div>
+                                            </div>
+                                            <div class="camera-div-pera">
+                                                <div class="camera-div-pera-main">
+                                                    <p>Product Photography</p>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -120,7 +239,7 @@ export default function About() {
                     <div className='bg-opa'>
                         <div className='container'>
                             <div className='callto'>
-                                <img src={bosa2} alt='error'/>
+                                <img src={bosa2} alt='error' />
                                 <div className='action'>
                                     <h6>CALL TO ACTION</h6>
                                 </div>

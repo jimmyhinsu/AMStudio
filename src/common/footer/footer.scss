@@ -162,7 +162,13 @@
                             padding-left: 8px;
                             color: #fff;
                             line-height: 20px;
+                            transition: 0.3s ease-in-out;
                             font-family: "Raleway", sans-serif;
+
+                            &:hover {
+                                color: #33aac0;
+                                transition: 0.3s ease-in-out;
+                            }
                         }
                     }
                 }

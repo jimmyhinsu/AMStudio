@@ -29,14 +29,16 @@ export default function Footer() {
                                 <div className='border1'></div>
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullam.</p>
-                            <form>
+                            <form action="mailto:amphotostudio15@gmail">
                                 <div className='mail'>
-                                    <input type='email' placeholder='Your Email'></input>
+                                    <input type='email' placeholder='Your Email' name="email" required />
+                                </div>
+                                <div className='subscr' >
+                                    <button type='submit'>SEND NOW !</button>
                                 </div>
                             </form>
-                            <div className='subscr'>
-                                <button>SEND NOW !</button>
-                            </div>
+
+
                         </div>
 
                         <div className='photozone'>

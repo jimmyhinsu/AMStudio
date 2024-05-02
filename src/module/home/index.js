@@ -14,20 +14,16 @@ import users from "../../assets/icons/users.png";
 import videocamera from "../../assets/icons/video-camera.png";
 import trophy from "../../assets/icons/trophy.png";
 import camera1 from "../../assets/icons/camera1.png";
-// import photo10 from "../../aseets/images/photozone-img010.jpg";
-// import photo11 from "../../aseets/images/photozone-img011.jpg";
-// import photo14 from "../../aseets/images/photozone-img014.jpg";
-// import photo15 from "../../aseets/images/photozone-img015.jpg";
-// import photo13 from "../../aseets/images/photozone-img013.jpg";
-// import photo12 from "../../aseets/images/photozone-img012.jpg";
+import photo10 from "../../assets/images/photozone-img010.jpg";
+import photo14 from "../../assets/images/photozone-img014.jpg";
+import photo15 from "../../assets/images/photozone-img015.jpg";
+import photo13 from "../../assets/images/photozone-img013.jpg"
 import doublequotes from "../../assets/icons/double-quotes.png";
 import photo24 from "../../assets/images/photozone-img024.jpg";
 import address from "../../assets/icons/address.png";
 import call1 from "../../assets/icons/phone-call 2.png";
 import email2 from "../../assets/icons/email 2.png";
 import alaram from "../../assets/icons/alarm-clock.png";
-// import photo021 from "../../aseets/images/photozone-img021.jpg";
-// import photo22 from "../../aseets/images/photozone-img22.jpg";
 import facebook1 from "../../assets/icons/facebook1.png";
 import twiter1 from "../../assets/icons/twitter1.png";
 import youtube1 from "../../assets/icons/youtubeb.png";
@@ -145,9 +141,6 @@ export default function Home() {
                         <h6>OUR FEATURES</h6>
                         <div className='ourmain'>
                             <h2>Our Main Specialities</h2>
-                            <div className='hirenow'>
-                                <button>HIRE US NOW</button>
-                            </div>
                         </div>
 
                         <div className='fourimg'>
@@ -259,12 +252,12 @@ export default function Home() {
                 </div>
             </div>
 
-            {/* <div className='gallery'>
+            <div className='gallery'>
                 <div className='toppaddi'>
                     <div className='container'>
                         <div className='logo-img'>
                             <div className='checkout'>
-                                <img src={bosa2} />
+                                <img src={bosa2} alt='arror' />
                                 <p>PHOTO GALLERY </p>
                                 <h2>Checkout Our Gallery</h2>
                             </div>
@@ -273,24 +266,24 @@ export default function Home() {
                                 <div className='allimgs'>
                                     <div className='firtsline'>
                                         <div data-aos="fade-down-right" className='imgsmarr'>
-                                            <img src={photo11} />
+                                            <img src={photo15} alt='arror' />
                                         </div>
                                         <div data-aos="fade-down-right" className='imgsmarr'>
-                                            <img src={photo10} />
+                                            <img src={photo10} alt='arror' />
                                         </div>
                                         <div data-aos="fade-down-right" className='imgsmarr'>
-                                            <img src={photo14} />
+                                            <img src={photo14} alt='arror' />
                                         </div>
                                     </div>
                                     <div className='secline'>
                                         <div data-aos="fade-down-left" className='imgsmarr'>
-                                            <img src={photo15} />
+                                            <img src={photo13} alt='arror' />
                                         </div>
                                         <div data-aos="fade-down-left" className='imgsmarr'>
-                                            <img src={photo13} />
+                                            <img src={photo14} alt='arror' />
                                         </div>
                                         <div data-aos="fade-down-left" className='imgsmarr'>
-                                            <img src={photo12} />
+                                            <img src={photo15} alt='arror' />
                                         </div>
                                     </div>
                                 </div>
@@ -298,7 +291,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-            </div> */}
+            </div>
 
             <div className='colorfullgirl'>
                 <div className='container'>
@@ -506,20 +499,21 @@ export default function Home() {
                                     <div className='duisunt'>
                                         <p>Dui sunt hic exercitation. Sodales, tempora nonummy penatibus eius,  quia accusamus! Cupidatat quisquam lacinia.</p>
                                     </div>
-                                    <from action="mailto:amphotostudio15@gmail" method="post" enctype="text/plain">
+                                    <form action="mailto:amphotostudio15@gmail" >
                                         <div className='yourname'>
-                                            <input type='name' placeholder='Your Name' name="name" required></input>
+                                            <input type='name' placeholder='Your Name' name="name" required />
                                         </div>
                                         <div className='yourname'>
-                                            <input type='email' placeholder='Your Email' name="email" required></input>
+                                            <input type='email' placeholder='Your Email' name="email" required />
                                         </div>
 
                                         <div className='text'>
                                             <textarea placeholder='Your Massage' name="message" required></textarea>
                                         </div>
-                                    </from>
-                                    <div className='sandnow'>
-                                        <button>SEND MASSAGE</button>
+
+                                    </form>
+                                    <div className='sendnow'>
+                                        <button type='submit'>SEND MASSAGE</button>
                                     </div>
                                 </div>
 
@@ -536,7 +530,6 @@ export default function Home() {
                                                     </div>
                                                     <div className='avenue'>
                                                         <span>amphotostudio15@gmail.com</span>
-                                                        {/* <p>name@company.com</p> */}
                                                     </div>
                                                 </div>
                                             </a>

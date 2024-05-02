@@ -113,27 +113,25 @@ export default function Contact() {
                             </div>
 
                             <div class="login-form-padding-main">
-                                <form>
+                                <form action="mailto:amphotostudio15@gmail">
                                     <div class="input-box">
                                         <div class="name-input">
-                                            <input type="text" placeholder="Your Name*" />
+                                            <input type="text" placeholder="Your Name*" name="name" required />
                                         </div>
 
                                         <div class="name-input">
-                                            <input type="email" placeholder="Your Email*" />
+                                            <input type="email" placeholder="Your Email*" name="email" required />
                                         </div>
 
-                                        <div class="text-area-box">
+                                        <div class="text-area-box" name="message" required>
                                             <textarea cols="30" rows="10" placeholder="Your Message*"></textarea>
                                         </div>
-
-                                        <div class="send-button">
-                                            <a href="">
-                                                <button type="button">SEND MESSAGE</button>
-                                            </a>
-                                        </div>
+                                    </div>
+                                    <div class="send-button">
+                                        <button type='submit'>SEND MESSAGE</button>
                                     </div>
                                 </form>
+                                
                             </div>
 
                         </div>

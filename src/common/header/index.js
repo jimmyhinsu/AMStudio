@@ -65,32 +65,29 @@ export default function Header() {
                         <div className='contact'>
                             <div className='call'>
                                 <img src={call} alt="error" />
-                                <p>+9909796518</p>
+                                <a href='tel:+9909796518' target='_blank'>+9909796518</a>
                             </div>
                             <div className='call'>
                                 <img src={mail} alt="error" />
-                                <p>amphotostudio15@gmail.com</p>
+                                <a href='mailto:amphotostudio15@gmail' target='_blank'>amphotostudio15@gmail.com</a>
                             </div>
                             <div className='call'>
                                 <img src={location} alt="error" />
-                                <p>Mota Varachha, Surat, Gujarat </p>
+                                <a href='https://maps.app.goo.gl/uUEewqLCVuP6S1Sv5' target='_blank'>Mota Varachha, Surat, Gujarat </a>
                             </div>
                         </div>
                         <div className='icons'>
                             <div className='logos'>
                                 <img src={facebook} alt="error" />
                             </div>
-                            <div className='logos'>
-                                <img src={twiter} alt="error" />
-                            </div>
+
                             <div className='logos'>
                                 <img src={youtube} alt="error" />
                             </div>
                             <div className='logos'>
-                                <img src={insta} alt="error" />
-                            </div>
-                            <div className='logos'>
-                                <img src={linkedin} alt="error" />
+                                <a href="https://www.instagram.com/amphotostudio15" target='_blank'>
+                                    <img src={insta} alt="error" />
+                                </a>
                             </div>
                         </div>
                     </div>

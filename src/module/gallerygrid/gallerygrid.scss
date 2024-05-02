@@ -56,7 +56,7 @@
 .nineimgs {
     background-color: #0e262b;
     width: 100%;
-    padding-bottom: 120px;
+    padding-bottom: 100px;
 
     .container {
         max-width: 1140px;
@@ -82,13 +82,11 @@
 
             .threeimgs {
                 .drigirl {
-                    height: 360px;
-                    width: 360px;
                     object-fit: cover;
 
                     @media (max-width: 1024px) {
-                        height: 350px;
-                        width: 350px;
+                        width: 100%;
+                        height: 100%;
                     }
 
                     img {

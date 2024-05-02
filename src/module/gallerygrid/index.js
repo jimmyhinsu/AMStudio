@@ -33,17 +33,17 @@ export default function Gallerygrid() {
           <div className='cameraimgs'>
             <div className='threeimgs'>
               <div data-aos="zoom-in" className='drigirl'>
-                <img src={photo11} alt='error' />
-              </div>
-            </div>
-            <div className='threeimgs'>
-              <div data-aos="zoom-in" className='drigirl'>
-                <img src={photo15} alt='error' />
+                <img src={photo10} alt='error' />
               </div>
             </div>
             <div className='threeimgs'>
               <div data-aos="zoom-in" className='drigirl'>
                 <img src={photo13} alt='error' />
+              </div>
+            </div>
+            <div className='threeimgs'>
+              <div data-aos="zoom-in" className='drigirl'>
+                <img src={photo14} alt='error' />
               </div>
             </div>
 
@@ -54,7 +54,7 @@ export default function Gallerygrid() {
             </div>
             <div className='threeimgs'>
               <div data-aos="zoom-in" className='drigirl'>
-                <img src={photo12} alt='error' />
+                <img src={photo13} alt='error' />
               </div>
             </div>
             <div className='threeimgs'>
@@ -64,17 +64,17 @@ export default function Gallerygrid() {
             </div>
             <div className='threeimgs'>
               <div data-aos="zoom-in" className='drigirl'>
-                <img src={photo004} alt='error' />
+                <img src={photo10} alt='error' />
               </div>
             </div>
             <div className='threeimgs'>
               <div data-aos="zoom-in" className='drigirl'>
-                <img src={photo03} alt='error' />
+                <img src={photo13} alt='error' />
               </div>
             </div>
             <div className='threeimgs'>
               <div data-aos="zoom-in" className='drigirl'>
-                <img src={photo5} alt='error' />
+                <img src={photo14} alt='error' />
               </div>
             </div>
           </div>
