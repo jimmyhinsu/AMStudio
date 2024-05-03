@@ -3,18 +3,15 @@ import './footer.scss';
 import call from "../../assets/icons/phone-call.png";
 import mail from "../../assets/icons/email.png";
 import location from "../../assets/icons/maps-and-flags.png";
-import facebook from "../../assets/icons/facebook.png";
-import twiter from "../../assets/icons/twitter.png";
 import insta from "../../assets/icons/instagram.png";
-import photo04 from "../../assets/images/photozone-img04-300x262.jpg";
-import photo07 from "../../assets/images/photozone-img07-300x180.jpg";
-import photo015 from "../../assets/images/photozone-img015-300x200.jpg";
-import photo014 from "../../assets/images/photozone-img014-300x200.jpg";
-import photo09 from "../../assets/images/photozone-img09-300x180.jpg";
-import photo05 from "../../assets/images/photozone-img05-300x180.jpg";
+import photo01 from "../../assets/images/AM (7).jpg";
+import photo02 from "../../assets/images/A_M_2509.jpg";
+import photo3 from "../../assets/images/A_M_4766.jpg";
+import photo4 from "../../assets/images/03.jpg";
+import photo5 from "../../assets/images/A_M_4699.jpg";
+import photo6 from "../../assets/images/A_M (26).jpg";
 import photologo from "../../assets/icons/am full logo.png";
 import google from "../../assets/icons/google.png";
-// import pintrest from "../../assets/icons/pinterest-logo.png";
 
 
 export default function Footer() {
@@ -28,13 +25,13 @@ export default function Footer() {
                                 <h5>Newsletter</h5>
                                 <div className='border1'></div>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullam.</p>
+                            <p>Subscribe to Our Exclusive Newsletter for the Latest Photography Tips, Trends, and Inspirations.</p>
                             <form action="mailto:amphotostudio15@gmail">
                                 <div className='mail'>
                                     <input type='email' placeholder='Your Email' name="email" required />
                                 </div>
                                 <div className='subscr' >
-                                    <button type='submit'>SEND NOW !</button>
+                                    <button type='submit'>SUBSCRIBE NOW !</button>
                                 </div>
                             </form>
 
@@ -45,9 +42,7 @@ export default function Footer() {
                             <div className='photosim'>
                                 <img src={photologo} alt="error" />
                             </div>
-                            <div className='loremipsum'>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                            </div>
+
                             <div className='eighteve'>
                                 <div className='flexdiv'>
                                     <div className='townum'>
@@ -82,22 +77,22 @@ export default function Footer() {
                             </div>
                             <div className='smallimg'>
                                 <div className='imgsss'>
-                                    <img src={photo04} alt="error" />
+                                    <img src={photo01} alt="error" />
                                 </div>
                                 <div className='imgsss'>
-                                    <img src={photo07} alt="error" />
+                                    <img src={photo02} alt="error" />
                                 </div>
                                 <div className='imgsss'>
-                                    <img src={photo015} alt="error" />
+                                    <img src={photo3} alt="error" />
                                 </div>
                                 <div className='imgsss'>
-                                    <img src={photo014} alt="error" />
+                                    <img src={photo4} alt="error" />
                                 </div>
                                 <div className='imgsss'>
-                                    <img src={photo09} alt="error" />
+                                    <img src={photo5} alt="error" />
                                 </div>
                                 <div className='imgsss'>
-                                    <img src={photo05} alt="error" />
+                                    <img src={photo6} alt="error" />
                                 </div>
                             </div>
                         </div>
@@ -112,18 +107,16 @@ export default function Footer() {
                             <span>Copyright © 2024 AM Studio. All rights reserved.</span>
                         </div>
                         <div className='logoss'>
-                            <div className='threelogos'>
+                            {/* <div className='threelogos'>
                                 <div className='logosdeign'>
-
                                     <img src={facebook} alt="error" />
-
                                 </div>
-                            </div>
-                            <div className='threelogos'>
+                            </div> */}
+                            {/* <div className='threelogos'>
                                 <div className='logosdeign'>
                                     <img src={twiter} alt="error" />
                                 </div>
-                            </div>
+                            </div> */}
                             <div className='threelogos'>
                                 <div className='logosdeign'>
                                     <a href="https://www.instagram.com/am_photo_studio_/" target='_blank'>

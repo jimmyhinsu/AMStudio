@@ -41,19 +41,12 @@ export default function Contact() {
                                 </div>
                                 <div class="penati-pera">
                                     <div class="penati-peraa-mar">
-                                        <p>Penatibus numquam? Non? Aliqua tempore est deserunt sequi itaque, nascetur,
-                                            consequuntur conubianigp, explicabo? Primis convallis ullam. Egestas deserunt
-                                            eius
-                                            molestias app incididunt? Nulla, nonummy non, just.</p>
+                                        <p>Reach Out and Connect for Your Next Memorable Shoot.
+                                            Whether it's a special event or a creative project, we're here to bring your vision to life.
+                                            Drop us a message today and let's start capturing moments that last a lifetime.</p>
                                     </div>
                                 </div>
-                                <div class="social-logo-flex-main">
-                                    <div class="social-box">
-                                        <img src={facebook1} alt='error' />
-                                    </div>
-                                    <div class="social-box">
-                                        <img src={twiter1} alt='error' />
-                                    </div>
+                                {/* <div class="social-logo-flex-main">
                                     <div class="social-box">
                                         <img src={youtube1} alt='error' />
                                     </div>
@@ -62,7 +55,7 @@ export default function Contact() {
                                             <img src={instagramm} alt='error' />
                                         </a>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
 
                             <div class="get-in-touch-grid-box-two-inner">
@@ -131,7 +124,7 @@ export default function Contact() {
                                         <button type='submit'>SEND MESSAGE</button>
                                     </div>
                                 </form>
-                                
+
                             </div>
 
                         </div>

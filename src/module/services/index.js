@@ -11,6 +11,15 @@ import cameras from "../../assets/icons/camerasss.png";
 import prints from "../../assets/icons/printss.png";
 import rotate from "../../assets/icons/rotate.png";
 import videos from "../../assets/icons/video-camera-s.png";
+import prewedding from "../../assets/images/01.jpg";
+import wedding from "../../assets/images/wedding.jpg";
+import exhibition from "../../assets/images/exhibition.jpg";
+import birth from "../../assets/images/birthday.jpg";
+import Corporate from "../../assets/images/i.webp";
+import product from "../../assets/images/product.jpg";
+import babyshower from "../../assets/images/A_M_4416.jpg";
+import engagement from "../../assets/images/04.jpg";
+import cradle from "../../assets/images/cradle.jpg";
 
 export default function Services() {
     return (
@@ -20,6 +29,153 @@ export default function Services() {
                     <div className='backgound-overlay'>
                         <div className='feature'>
                             <h1>Services</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className='mainbgimg'>
+                <div className='wtostudio'>
+                    <div className='container'>
+                        <div className='allmainzdiv'>
+                            <div className='introdu'>
+                                <div className='intbosa'>
+                                    <img src={bosa2} alt='error' />
+                                    <h6>INTRODUCTION</h6>
+                                </div>
+                                <div className='weltourstu'>
+                                    <h2>Welcome To Our Studio</h2>
+                                </div>
+                                <p>"Step into Our Studio and Enter a World of Creativity and Inspiration.
+                                    From the moment you walk through our doors, you're greeted with warmth and professionalism.
+                                    Our team is dedicated to bringing your vision to life, whether it's a personal portrait or a commercial project.
+                                </p>
+                            </div>
+
+
+                            <div class="recent-blog-container">
+                                <div class="recent-blog-flex-main">
+                                    <div class="Photograph-tow-card-div-flex-main">
+                                        <div class="Photograph-tow-card-div-card-one">
+                                            <div class="Photograph-tow-card-div-card-personl-image">
+                                                <div class="Photograph-tow-card-div-card-personl-image-inner">
+                                                    <img src={prewedding} alt='error' />
+                                                </div>
+                                            </div>
+                                            <div class="camera-div-pera">
+                                                <div class="camera-div-pera-main">
+                                                    <p> Prewedding</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="Photograph-tow-card-div-card-one">
+                                            <div class="Photograph-tow-card-div-card-personl-image">
+                                                <div class="Photograph-tow-card-div-card-personl-image-inner">
+                                                    <img src={engagement} alt='error' />
+                                                </div>
+                                            </div>
+                                            <div class="camera-div-pera">
+                                                <div class="camera-div-pera-main">
+                                                    <p> Engagement Ceremony</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="Photograph-tow-card-div-card-one">
+                                            <div class="Photograph-tow-card-div-card-personl-image">
+                                                <div class="Photograph-tow-card-div-card-personl-image-inner">
+                                                    <img src={wedding} alt='error' />
+                                                </div>
+                                            </div>
+                                            <div class="camera-div-pera">
+                                                <div class="camera-div-pera-main">
+                                                    <p>Wedding Ceremony</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="Photograph-tow-card-div-card-one">
+                                            <div class="Photograph-tow-card-div-card-personl-image">
+                                                <div class="Photograph-tow-card-div-card-personl-image-inner">
+                                                    <img src={birth} alt='error' />
+                                                </div>
+                                            </div>
+                                            <div class="camera-div-pera">
+                                                <div class="camera-div-pera-main">
+                                                    <p>Birthday Celebration</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="Photograph-tow-card-div-card-one">
+                                            <div class="Photograph-tow-card-div-card-personl-image">
+                                                <div class="Photograph-tow-card-div-card-personl-image-inner">
+                                                    <img src={cradle} alt='error' />
+                                                </div>
+                                            </div>
+                                            <div class="camera-div-pera">
+                                                <div class="camera-div-pera-main">
+                                                    <p>Cradle Ceremony</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="Photograph-tow-card-div-card-one">
+                                            <div class="Photograph-tow-card-div-card-personl-image">
+                                                <div class="Photograph-tow-card-div-card-personl-image-inner">
+                                                    <img src={babyshower} alt='error' />
+                                                </div>
+                                            </div>
+                                            <div class="camera-div-pera">
+                                                <div class="camera-div-pera-main">
+                                                    <p>Baby Shower</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="Photograph-tow-card-div-card-one">
+                                            <div class="Photograph-tow-card-div-card-personl-image">
+                                                <div class="Photograph-tow-card-div-card-personl-image-inner">
+                                                    <img src={Corporate} alt='error' />
+                                                </div>
+                                            </div>
+                                            <div class="camera-div-pera">
+                                                <div class="camera-div-pera-main">
+                                                    <p> Corporate Functions</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="Photograph-tow-card-div-card-one">
+                                            <div class="Photograph-tow-card-div-card-personl-image">
+                                                <div class="Photograph-tow-card-div-card-personl-image-inner">
+                                                    <img src={exhibition} alt='error' />
+                                                </div>
+                                            </div>
+                                            <div class="camera-div-pera">
+                                                <div class="camera-div-pera-main">
+                                                    <p>Exhibition</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="Photograph-tow-card-div-card-one">
+                                            <div class="Photograph-tow-card-div-card-personl-image">
+                                                <div class="Photograph-tow-card-div-card-personl-image-inner">
+                                                    <img src={product} alt='error' />
+                                                </div>
+                                            </div>
+                                            <div class="camera-div-pera">
+                                                <div class="camera-div-pera-main">
+                                                    <p>Product Photography</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -37,8 +193,7 @@ export default function Services() {
                                         </div>
                                     </div>
                                     <h5> Studio Shooting </h5>
-                                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-                                        ullamcorper mattis, pulvinar dapibus leo. </p>
+
                                 </div>
                             </div>
 
@@ -50,8 +205,6 @@ export default function Services() {
                                         </div>
                                     </div>
                                     <h5> Studio Video </h5>
-                                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-                                        ullamcorper mattis, pulvinar dapibus leo. </p>
 
                                 </div>
                             </div>
@@ -64,8 +217,6 @@ export default function Services() {
                                         </div>
                                     </div>
                                     <h5> Printing Studio </h5>
-                                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-                                        ullamcorper mattis, pulvinar dapibus leo. </p>
                                 </div>
                             </div>
 
@@ -77,8 +228,6 @@ export default function Services() {
                                         </div>
                                     </div>
                                     <h5> Retouching Photos </h5>
-                                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-                                        ullamcorper mattis, pulvinar dapibus leo. </p>
                                 </div>
                             </div>
 
@@ -90,8 +239,6 @@ export default function Services() {
                                         </div>
                                     </div>
                                     <h5> Creating Posters </h5>
-                                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-                                        ullamcorper mattis, pulvinar dapibus leo. </p>
                                 </div>
                             </div>
 
@@ -103,8 +250,6 @@ export default function Services() {
                                         </div>
                                     </div>
                                     <h5> Printing Gallery </h5>
-                                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-                                        ullamcorper mattis, pulvinar dapibus leo. </p>
                                 </div>
                             </div>
                         </div>
@@ -121,9 +266,6 @@ export default function Services() {
                         <h6>OUR FEATURES</h6>
                         <div className='ourmain'>
                             <h2>Our Main Specialities</h2>
-                            <div className='hirenow'>
-                                <button>HIRE US NOW</button>
-                            </div>
                         </div>
 
                         <div className='fourimg'>
@@ -134,7 +276,7 @@ export default function Services() {
                                             <span>01.</span>
                                             <h5> Interactive Imagery</h5>
                                         </div>
-                                        <p>Porro ipsum amet eiusmod, quae voluptate, architecto posuere risus imperdiet gravida porttitor, penatibus nemo dictumst quasi habitant.</p>
+                                        <p>Discover Dynamic Storytelling and Engaging Visual Experiences. Explore Our Expertise in Interactive Imaging Solutions.</p>
                                         <div className='girlphoto'>
                                             <img src={photo7} alt='error' />
                                         </div>
@@ -142,9 +284,9 @@ export default function Services() {
                                     <div className='maininteractive'>
                                         <div className='detail'>
                                             <span>03.</span>
-                                            <h5>Cutting Edge Techology</h5>
+                                            <h5>Cutting Edge Technology</h5>
                                         </div>
-                                        <p>Porro ipsum amet eiusmod, quae voluptate, architecto posuere risus imperdiet gravida porttitor, penatibus nemo dictumst quasi habitant.</p>
+                                        <p>Revolutionizing imagery with cutting-edge tech solutions. Where innovation meets your visual aspirations.</p>
                                         <div className='girlphoto'>
                                             <img src={photo9} alt='error' />
                                         </div>
@@ -156,7 +298,7 @@ export default function Services() {
                                             <span>02.</span>
                                             <h5>Effective Workflow</h5>
                                         </div>
-                                        <p>Porro ipsum amet eiusmod, quae voluptate, architecto posuere risus imperdiet gravida porttitor, penatibus nemo dictumst quasi habitant.</p>
+                                        <p>Streamlining your visual narrative from capture to delivery. Efficient workflow solutions tailored for your photography needs.</p>
                                         <div className='girlphoto'>
                                             <img src={photo8} alt='error' />
                                         </div>
@@ -166,7 +308,7 @@ export default function Services() {
                                             <span>04.</span>
                                             <h5>Best Photo-Session</h5>
                                         </div>
-                                        <p>Porro ipsum amet eiusmod, quae voluptate, architecto posuere risus imperdiet gravida porttitor, penatibus nemo dictumst quasi habitant.</p>
+                                        <p>Unlock unforgettable memories with our expertly crafted photo session. Capturing the essence of every moment, one frame at a time.</p>
                                         <div className='girlphoto'>
                                             <img src={photo5} alt='error' />
                                         </div>
@@ -177,7 +319,6 @@ export default function Services() {
                     </div>
                 </div>
             </div>
-
         </>
     )
 }

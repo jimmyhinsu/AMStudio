@@ -293,25 +293,6 @@
                     font-family: "Raleway", sans-serif;
                     line-height: 1.5em;
                 }
-
-                .buttonab {
-                    button {
-                        color: #fff;
-                        font-size: 17px;
-                        padding: 15px 30px;
-                        background-color: transparent;
-                        border: 1px solid #787878;
-
-                        &:hover {
-                            background-color: #33aac0;
-                        }
-
-                        @media (max-width: 576px) {
-                            padding: 12px 24px;
-                            font-size: 15px;
-                        }
-                    }
-                }
             }
 
             .blankdiv {

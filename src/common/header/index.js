@@ -65,7 +65,7 @@ export default function Header() {
                         <div className='contact'>
                             <div className='call'>
                                 <img src={call} alt="error" />
-                                <a href='tel:+9909796518' target='_blank'>+9909796518</a>
+                                <a href='tel:9909796518' target='_blank'>+91 9909796518</a>
                             </div>
                             <div className='call'>
                                 <img src={mail} alt="error" />
@@ -77,13 +77,13 @@ export default function Header() {
                             </div>
                         </div>
                         <div className='icons'>
-                            <div className='logos'>
+                            {/* <div className='logos'>
                                 <img src={facebook} alt="error" />
                             </div>
 
                             <div className='logos'>
                                 <img src={youtube} alt="error" />
-                            </div>
+                            </div> */}
                             <div className='logos'>
                                 <a href="https://www.instagram.com/amphotostudio15" target='_blank'>
                                     <img src={insta} alt="error" />

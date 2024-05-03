@@ -14,10 +14,12 @@ import users from "../../assets/icons/users.png";
 import videocamera from "../../assets/icons/video-camera.png";
 import trophy from "../../assets/icons/trophy.png";
 import camera1 from "../../assets/icons/camera1.png";
-import photo10 from "../../assets/images/photozone-img010.jpg";
-import photo14 from "../../assets/images/photozone-img014.jpg";
-import photo15 from "../../assets/images/photozone-img015.jpg";
-import photo13 from "../../assets/images/photozone-img013.jpg"
+import photo14 from "../../assets/images/A_M_2834.jpg";
+import photo10 from "../../assets/images/A_M_P__04.jpg";
+import photo11 from "../../assets/images/A_M_2878.jpg";
+import photo12 from "../../assets/images/garba.jpg";
+import photo15 from "../../assets/images/01+.jpg";
+import photo13 from "../../assets/images/wedding-gallery.jpg";
 import doublequotes from "../../assets/icons/double-quotes.png";
 import photo24 from "../../assets/images/photozone-img024.jpg";
 import address from "../../assets/icons/address.png";
@@ -25,7 +27,7 @@ import call1 from "../../assets/icons/phone-call 2.png";
 import email2 from "../../assets/icons/email 2.png";
 import alaram from "../../assets/icons/alarm-clock.png";
 import facebook1 from "../../assets/icons/facebook1.png";
-import twiter1 from "../../assets/icons/twitter1.png";
+import instagramm from "../../assets/icons/instagram-2.png";
 import youtube1 from "../../assets/icons/youtubeb.png";
 import { Link } from 'react-router-dom';
 import Slider from "react-slick";
@@ -76,9 +78,11 @@ export default function Home() {
                                     </div>
                                 </div>
                                 <div className='peragraph'>
-                                    <p> Magnam consequatur ipsa faucibus porro accusamus nostrud, a odit vitae! Duis cumque, vivamus turpis, et, nunc necessitatibus hendrerit! Temporibus, eos laborum porttitor perspiciatis consequat, accusamus eos incididunt odit porta class, ridiculus fusce! consequat, accusamus eos incididunt odit porta class, ridiculus</p>
+                                    <p> Having a clear vision and concept for each project is crucial. Define what you want to convey through your photographs and ensure consistency in style and theme.Thorough planning and preparation are essential. This includes scouting locations, arranging props or models, and considering lighting conditions.</p>
                                     <div className='button2'>
-                                        <button type='button'>LEARN MORE</button>
+                                        <a href="/about">
+                                            <button type='button'>LEARN MORE</button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -88,13 +92,37 @@ export default function Home() {
                                 </div>
                                 <div className='sidetable'>
                                     <div className='lines'>
-                                        <p>01. Story & Concept</p>
+                                        <p>01. Wedding Ceremony</p>
                                     </div>
                                     <div className='lines'>
-                                        <p>02. Style & Makeup</p>
+                                        <p>02. Engagement Ceremony</p>
                                     </div>
                                     <div className='lines'>
-                                        <p>03. Shooting & Retush</p>
+                                        <p>03. Prewedding</p>
+                                    </div>
+                                    <div className='lines'>
+                                        <p>03. Prewedding</p>
+                                    </div>
+                                    <div className='lines'>
+                                        <p>04.  Birthday Celebration</p>
+                                    </div>
+                                    <div className='lines'>
+                                        <p>05. Cradle Ceremony</p>
+                                    </div>
+                                    <div className='lines'>
+                                        <p>06. Baby Shower</p>
+                                    </div>
+                                    <div className='lines'>
+                                        <p>07. Corporate Functions</p>
+                                    </div>
+                                    <div className='lines'>
+                                        <p>08. Exhibition</p>
+                                    </div>
+                                    <div className='lines'>
+                                        <p>09.Product Photography</p>
+                                    </div>
+                                    <div className='lines'>
+                                        <p>10. All Types of Events</p>
                                     </div>
                                 </div>
                             </div>
@@ -105,7 +133,7 @@ export default function Home() {
                                     </div>
                                     <div className='text'>
                                         <h5>Extensive Equipment</h5>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitdolor.</p>
+                                        <p>Capture the world's tools and treasures, one pixel at a time.</p>
                                     </div>
                                 </div>
                                 <div className='alldiv'>
@@ -114,7 +142,7 @@ export default function Home() {
                                     </div>
                                     <div className='text'>
                                         <h5>Studio Sessions</h5>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitdolor.</p>
+                                        <p>Unveiling Moments, Perfectly Captured.</p>
                                     </div>
                                 </div>
                                 <div className='alldiv'>
@@ -123,7 +151,7 @@ export default function Home() {
                                     </div>
                                     <div className='text'>
                                         <h5>Professional Editing</h5>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitdolor.</p>
+                                        <p>Elevate Your Imagery with Professional Editing Excellence.</p>
                                     </div>
                                 </div>
                             </div>
@@ -151,7 +179,7 @@ export default function Home() {
                                             <span>01.</span>
                                             <h5> Interactive Imagery</h5>
                                         </div>
-                                        <p>Porro ipsum amet eiusmod, quae voluptate, architecto posuere risus imperdiet gravida porttitor, penatibus nemo dictumst quasi habitant.</p>
+                                        <p>Discover Dynamic Storytelling and Engaging Visual Experiences. Explore Our Expertise in Interactive Imaging Solutions.</p>
                                         <div className='girlphoto'>
                                             <img src={photo7} alt='error' />
                                         </div>
@@ -159,9 +187,9 @@ export default function Home() {
                                     <div className='maininteractive'>
                                         <div className='detail'>
                                             <span>03.</span>
-                                            <h5>Cutting Edge Techology</h5>
+                                            <h5>Cutting Edge Technology</h5>
                                         </div>
-                                        <p>Porro ipsum amet eiusmod, quae voluptate, architecto posuere risus imperdiet gravida porttitor, penatibus nemo dictumst quasi habitant.</p>
+                                        <p>Revolutionizing imagery with cutting-edge tech solutions. Where innovation meets your visual aspirations.</p>
                                         <div className='girlphoto'>
                                             <img src={photo9} alt='error' />
                                         </div>
@@ -173,7 +201,7 @@ export default function Home() {
                                             <span>02.</span>
                                             <h5>Effective Workflow</h5>
                                         </div>
-                                        <p>Porro ipsum amet eiusmod, quae voluptate, architecto posuere risus imperdiet gravida porttitor, penatibus nemo dictumst quasi habitant.</p>
+                                        <p>Streamlining your visual narrative from capture to delivery. Efficient workflow solutions tailored for your photography needs.</p>
                                         <div className='girlphoto'>
                                             <img src={photo8} alt='error' />
                                         </div>
@@ -183,7 +211,7 @@ export default function Home() {
                                             <span>04.</span>
                                             <h5>Best Photo-Session</h5>
                                         </div>
-                                        <p>Porro ipsum amet eiusmod, quae voluptate, architecto posuere risus imperdiet gravida porttitor, penatibus nemo dictumst quasi habitant.</p>
+                                        <p>Unlock unforgettable memories with our expertly crafted photo session. Capturing the essence of every moment, one frame at a time.</p>
                                         <div className='girlphoto'>
                                             <img src={photo5} alt='error' />
                                         </div>
@@ -232,7 +260,7 @@ export default function Home() {
                                             </div>
                                             <div className='sati'>
                                                 <span>65+</span>
-                                                <p>Satisfied Customers</p>
+                                                <p>awards</p>
                                             </div>
                                         </div>
                                         <div className='light-color'>
@@ -262,30 +290,24 @@ export default function Home() {
                                 <h2>Checkout Our Gallery</h2>
                             </div>
 
-                            <div>
-                                <div className='allimgs'>
-                                    <div className='firtsline'>
-                                        <div data-aos="fade-down-right" className='imgsmarr'>
-                                            <img src={photo15} alt='arror' />
-                                        </div>
-                                        <div data-aos="fade-down-right" className='imgsmarr'>
-                                            <img src={photo10} alt='arror' />
-                                        </div>
-                                        <div data-aos="fade-down-right" className='imgsmarr'>
-                                            <img src={photo14} alt='arror' />
-                                        </div>
-                                    </div>
-                                    <div className='secline'>
-                                        <div data-aos="fade-down-left" className='imgsmarr'>
-                                            <img src={photo13} alt='arror' />
-                                        </div>
-                                        <div data-aos="fade-down-left" className='imgsmarr'>
-                                            <img src={photo14} alt='arror' />
-                                        </div>
-                                        <div data-aos="fade-down-left" className='imgsmarr'>
-                                            <img src={photo15} alt='arror' />
-                                        </div>
-                                    </div>
+                            <div className='allimgs'>
+                                <div data-aos="fade-down-right" className='imgsmarr'>
+                                    <img src={photo15} alt='arror' />
+                                </div>
+                                <div data-aos="fade-down-right" className='imgsmarr'>
+                                    <img src={photo10} alt='arror' />
+                                </div>
+                                <div data-aos="fade-down-right" className='imgsmarr'>
+                                    <img src={photo11} alt='arror' />
+                                </div>
+                                <div data-aos="fade-down-left" className='imgsmarr'>
+                                    <img src={photo13} alt='arror' />
+                                </div>
+                                <div data-aos="fade-down-left" className='imgsmarr'>
+                                    <img src={photo14} alt='arror' />
+                                </div>
+                                <div data-aos="fade-down-left" className='imgsmarr'>
+                                    <img src={photo12} alt='arror' />
                                 </div>
                             </div>
                         </div>
@@ -375,7 +397,7 @@ export default function Home() {
                                                             <img src={facebook1} alt='error' />
                                                         </div>
                                                         <div class="social-icon">
-                                                            <img src={twiter1} alt='error' />
+                                                            <img src={instagramm} alt='error' />
                                                         </div>
                                                         <div class="social-icon">
                                                             <img src={youtube1} alt='error' />
@@ -403,7 +425,7 @@ export default function Home() {
                                                             <img src={facebook1} alt='error' />
                                                         </div>
                                                         <div class="social-icon">
-                                                            <img src={twiter1} alt='error' />
+                                                            <img src={instagramm} alt='error' />
                                                         </div>
                                                         <div class="social-icon">
                                                             <img src={youtube1} alt='error' />
@@ -431,7 +453,7 @@ export default function Home() {
                                                             <img src={facebook1} alt='error' />
                                                         </div>
                                                         <div class="social-icon">
-                                                            <img src={twiter1} alt='error' />
+                                                            <img src={instagramm} alt='error' />
                                                         </div>
                                                         <div class="social-icon">
                                                             <img src={youtube1} alt='error' />
@@ -459,7 +481,7 @@ export default function Home() {
                                                             <img src={facebook1} alt='error' />
                                                         </div>
                                                         <div class="social-icon">
-                                                            <img src={twiter1} alt='error' />
+                                                            <img src={instagramm} alt='error' />
                                                         </div>
                                                         <div class="social-icon">
                                                             <img src={youtube1} alt='error' />
@@ -496,9 +518,7 @@ export default function Home() {
                                     <div className='anykind'>
                                         <h2>Contact For Any Kind Of Information</h2>
                                     </div>
-                                    <div className='duisunt'>
-                                        <p>Dui sunt hic exercitation. Sodales, tempora nonummy penatibus eius,  quia accusamus! Cupidatat quisquam lacinia.</p>
-                                    </div>
+
                                     <form action="mailto:amphotostudio15@gmail" >
                                         <div className='yourname'>
                                             <input type='name' placeholder='Your Name' name="name" required />
@@ -510,11 +530,11 @@ export default function Home() {
                                         <div className='text'>
                                             <textarea placeholder='Your Massage' name="message" required></textarea>
                                         </div>
-
+                                        <div className='sendnow'>
+                                            <button type='submit'>SEND MASSAGE</button>
+                                        </div>
                                     </form>
-                                    <div className='sendnow'>
-                                        <button type='submit'>SEND MASSAGE</button>
-                                    </div>
+
                                 </div>
 
                                 <div className='ouradd'>

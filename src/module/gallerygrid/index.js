@@ -5,15 +5,16 @@ import users from "../../assets/icons/users.png";
 import videocamera from "../../assets/icons/video-camera.png";
 import trophy from "../../assets/icons/trophy.png";
 import camera1 from "../../assets/icons/camera1.png";
-import photo004 from "../../assets/images/photozone-img04.jpg";
-import photo11 from "../../assets/images/photozone-img011.jpg";
-import photo15 from "../../assets/images/photozone-img015.jpg";
-import photo13 from "../../assets/images/photozone-img013.jpg";
-import photo12 from "../../assets/images/photozone-img012.jpg";
-import photo10 from "../../assets/images/photozone-img010.jpg";
-import photo14 from "../../assets/images/photozone-img014.jpg";
-import photo5 from "../../assets/images/photozone-img05.jpg";
-import photo03 from "../../assets/images/photozone-img037.jpg";
+import photo10 from "../../assets/images/am-(3).jpg";
+import photo11 from "../../assets/images/hirenbhumi.jpg";
+import photo12 from "../../assets/images/A_M_6216.jpg";
+import photo13 from "../../assets/images/gaurang-Nirjari.jpg";
+import photo14 from "../../assets/images/A_M_2343.jpg";
+import photo15 from "../../assets/images/A_M_3772.jpg";
+import photo16 from "../../assets/images/A_M_4299.jpg";
+import photo17 from "../../assets/images/A_M_4961.jpg";
+import photo18 from "../../assets/images/A_M-(29).jpg";
+
 
 export default function Gallerygrid() {
   return (
@@ -38,22 +39,17 @@ export default function Gallerygrid() {
             </div>
             <div className='threeimgs'>
               <div data-aos="zoom-in" className='drigirl'>
-                <img src={photo13} alt='error' />
+                <img src={photo11} alt='error' />
               </div>
             </div>
             <div className='threeimgs'>
               <div data-aos="zoom-in" className='drigirl'>
-                <img src={photo14} alt='error' />
+                <img src={photo12} alt='error' />
               </div>
             </div>
 
             <div className='threeimgs'>
               <div data-aos="zoom-in" className='drigirl'>
-                <img src={photo10} alt='error' />
-              </div>
-            </div>
-            <div className='threeimgs'>
-              <div data-aos="zoom-in" className='drigirl'>
                 <img src={photo13} alt='error' />
               </div>
             </div>
@@ -64,17 +60,22 @@ export default function Gallerygrid() {
             </div>
             <div className='threeimgs'>
               <div data-aos="zoom-in" className='drigirl'>
-                <img src={photo10} alt='error' />
+                <img src={photo15} alt='error' />
               </div>
             </div>
             <div className='threeimgs'>
               <div data-aos="zoom-in" className='drigirl'>
-                <img src={photo13} alt='error' />
+                <img src={photo16} alt='error' />
               </div>
             </div>
             <div className='threeimgs'>
               <div data-aos="zoom-in" className='drigirl'>
-                <img src={photo14} alt='error' />
+                <img src={photo17} alt='error' />
+              </div>
+            </div>
+            <div className='threeimgs'>
+              <div data-aos="zoom-in" className='drigirl'>
+                <img src={photo18} alt='error' />
               </div>
             </div>
           </div>
@@ -118,7 +119,7 @@ export default function Gallerygrid() {
                       </div>
                       <div className='sati'>
                         <span>65+</span>
-                        <p>Satisfied Customers</p>
+                        <p>Awards</p>
                       </div>
                     </div>
                     <div className='light-color'>

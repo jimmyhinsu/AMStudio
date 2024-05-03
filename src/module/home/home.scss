@@ -823,62 +823,21 @@
                     @media (max-width: 576px) {
                         display: grid;
                         grid-template-columns: repeat(1, 1fr);
-                        gap: 0px;
+                        gap: 20px;
                         text-align: center;
                     }
 
-                    .firtsline {
-                        display: block;
-
-                        @media (max-width: 576px) {
-                            display: flex;
-                            flex-wrap: wrap;
-                            justify-content: center;
-                        }
-
-                        .imgsmarr {
-                            margin-bottom: 20px;
-
-                            img {
-                                height: 100%;
-                                width: 100%;
-                                &:hover {
-                                    opacity: 0.6;
-                                }
-                            }
-
-                            @media (max-width: 1024px) {
-                                width: 100%;
-                            }
-
-                            @media (max-width: 670px) {
-                                width: 100%;
+                    .imgsmarr {
+                        img {
+                            height: 100%;
+                            width: 100%;
+                            &:hover {
+                                opacity: 0.6;
                             }
                         }
-                    }
 
-                    .secline {
-                        display: block;
-                        @media (max-width: 576px) {
-                            display: flex;
-                            flex-wrap: wrap;
-                            justify-content: center;
-                        }
-                        .imgsmarr {
-                            margin-bottom: 20px;
-                            img {
-                                height: 100%;
-                                width: 100%;
-                                &:hover {
-                                    opacity: 0.6;
-                                }
-                            }
-                            @media (max-width: 1024px) {
-                                width: 100%;
-                            }
-                            @media (max-width: 670px) {
-                                width: 100%;
-                            }
+                        @media (max-width: 1024px) {
+                            width: 100%;
                         }
                     }
                 }
@@ -1545,17 +1504,6 @@
                             }
                         }
 
-                        .duisunt {
-                            margin-bottom: 40px;
-                            p {
-                                color: #ddd;
-                                font-size: 15px;
-                                width: 100%;
-                                font-weight: 400;
-                                letter-spacing: 1px;
-                                font-family: "Raleway", sans-serif;
-                            }
-                        }
                         .yourname {
                             padding: 0 5px;
                             margin-bottom: 30px;

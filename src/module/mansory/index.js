@@ -3,22 +3,18 @@ import './mansory.scss';
 import bosa2 from "../../assets/images/bosa-photography-img12.png";
 import users from "../../assets/icons/users.png";
 import videocamera from "../../assets/icons/video-camera.png";
-import photo10 from "../../assets/images/photozone-img010.jpg";
-import photo14 from "../../assets/images/photozone-img014.jpg";
-import photo15 from "../../assets/images/photozone-img015.jpg";
-import photo13 from "../../assets/images/photozone-img013.jpg"
-// import photo24 from "../../aseets/images/photozone-img024.jpg";
+import photo14 from "../../assets/images/A_M_2834.jpg";
+import photo10 from "../../assets/images/A_M_P__04.jpg";
+import photo11 from "../../assets/images/A_M_2878.jpg";
+import photo12 from "../../assets/images/garba.jpg";
+import photo15 from "../../assets/images/01+.jpg";
+import photo13 from "../../assets/images/wedding-gallery.jpg"
 import trophy from "../../assets/icons/trophy.png";
 import camera1 from "../../assets/icons/camera1.png";
 import Slider from "react-slick";
 
 export default function Mansory() {
-    var settings = {
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-    };
+
     return (
         <>
             <div className='bg-relative'>
@@ -31,7 +27,7 @@ export default function Mansory() {
                 </div>
             </div>
 
-            <div className='gallery-mano'>
+            <div className='gallery-mans'>
                 <div className='toppaddi'>
                     <div className='container'>
                         <div className='logo-img'>
@@ -41,30 +37,24 @@ export default function Mansory() {
                                 <h2>Checkout Our Gallery</h2>
                             </div>
 
-                            <div>
-                                <div className='allimgs'>
-                                    <div className='firtsline'>
-                                        <div data-aos="fade-down-right" className='imgsmarr'>
-                                            <img src={photo15} alt='arror' />
-                                        </div>
-                                        <div data-aos="fade-down-right" className='imgsmarr'>
-                                            <img src={photo10} alt='arror' />
-                                        </div>
-                                        <div data-aos="fade-down-right" className='imgsmarr'>
-                                            <img src={photo14} alt='arror' />
-                                        </div>
-                                    </div>
-                                    <div className='secline'>
-                                        <div data-aos="fade-down-left" className='imgsmarr'>
-                                            <img src={photo13} alt='arror' />
-                                        </div>
-                                        <div data-aos="fade-down-left" className='imgsmarr'>
-                                            <img src={photo14} alt='arror' />
-                                        </div>
-                                        <div data-aos="fade-down-left" className='imgsmarr'>
-                                            <img src={photo15} alt='arror' />
-                                        </div>
-                                    </div>
+                            <div className='allimgs'>
+                                <div data-aos="fade-down-right" className='imgsmarr'>
+                                    <img src={photo15} alt='arror' />
+                                </div>
+                                <div data-aos="fade-down-right" className='imgsmarr'>
+                                    <img src={photo10} alt='arror' />
+                                </div>
+                                <div data-aos="fade-down-right" className='imgsmarr'>
+                                    <img src={photo11} alt='arror' />
+                                </div>
+                                <div data-aos="fade-down-left" className='imgsmarr'>
+                                    <img src={photo13} alt='arror' />
+                                </div>
+                                <div data-aos="fade-down-left" className='imgsmarr'>
+                                    <img src={photo14} alt='arror' />
+                                </div>
+                                <div data-aos="fade-down-left" className='imgsmarr'>
+                                    <img src={photo12} alt='arror' />
                                 </div>
                             </div>
                         </div>
@@ -75,61 +65,24 @@ export default function Mansory() {
             <div className='colorfullgirl-one'>
                 <div className='container'>
                     <div className='clinetreview'>
-                        <Slider {...settings}>
-                            <div className='double'>
-                                <img src={bosa2} alt='error' />
-                                <div className='clltoact'>
-                                    <h6>CALL TO ACTION</h6>
-                                </div>
-                                <div className='weareprof'>
-                                    <h2>We Are Professional In Our Works. Hire Us!!</h2>
-                                </div>
-                                <p>Tempora placeat quibusdam aute nibh habitant vel vehicula,
-                                    tempus vitae praesent donec, phasellus amet animi, tempore. Risus
-                                    nascetur exercitationem, possimus! Cum porta parturient habitant
-                                    officiis eleifend rhoncus.
-                                </p>
-                                <div className='buttonhire'>
-                                    <button>HIRE US NOW !</button>
-                                </div>
+                        <div className='double'>
+                            <img src={bosa2} alt='error' />
+                            <div className='clltoact'>
+                                <h6>CALL TO ACTION</h6>
                             </div>
-
-                            <div className='double'>
-                                <img src={bosa2} alt='error' />
-                                <div className='clltoact'>
-                                    <h6>CALL TO ACTION</h6>
-                                </div>
-                                <div className='weareprof'>
-                                    <h2>We Are Professional In Our Works. Hire Us!!</h2>
-                                </div>
-                                <p>Tempora placeat quibusdam aute nibh habitant vel vehicula,
-                                    tempus vitae praesent donec, phasellus amet animi, tempore. Risus
-                                    nascetur exercitationem, possimus! Cum porta parturient habitant
-                                    officiis eleifend rhoncus.
-                                </p>
-                                <div className='buttonhire'>
-                                    <button>HIRE US NOW !</button>
-                                </div>
+                            <div className='weareprof'>
+                                <h2>We Are Professional In Our Works. Hire Us!!</h2>
                             </div>
-
-                            <div className='double'>
-                                <img src={bosa2} alt='error' />
-                                <div className='clltoact'>
-                                    <h6>CALL TO ACTION</h6>
-                                </div>
-                                <div className='weareprof'>
-                                    <h2>We Are Professional In Our Works. Hire Us!!</h2>
-                                </div>
-                                <p>Tempora placeat quibusdam aute nibh habitant vel vehicula,
-                                    tempus vitae praesent donec, phasellus amet animi, tempore. Risus
-                                    nascetur exercitationem, possimus! Cum porta parturient habitant
-                                    officiis eleifend rhoncus.
-                                </p>
-                                <div className='buttonhire'>
+                            <p>Choose Us for Your Photography Needs.
+                                With a dedication to excellence and a passion for capturing moments, we deliver unparalleled quality in every shot.
+                                Hire us today and let's create stunning visuals that tell your unique story.
+                            </p>
+                            <div className='buttonhire'>
+                                <a href='mailto: amphotostudio15@gmail.com'>
                                     <button>HIRE US NOW !</button>
-                                </div>
+                                </a>
                             </div>
-                        </Slider>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -171,7 +124,7 @@ export default function Mansory() {
                                             </div>
                                             <div className='sati'>
                                                 <span>65+</span>
-                                                <p>Satisfied Customers</p>
+                                                <p>Awards</p>
                                             </div>
                                         </div>
                                         <div className='light-color'>

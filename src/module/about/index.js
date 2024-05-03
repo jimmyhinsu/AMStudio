@@ -9,14 +9,14 @@ import studio from "../../assets/icons/video-camera-s.png";
 import photoss from "../../assets/icons/imagesss.png";
 import camera2 from "../../assets/icons/camerasss.png";
 import print from "../../assets/icons/printss.png";
-import prewedding from "../../assets/images/prewedding.jpg";
+import prewedding from "../../assets/images/01.jpg";
 import wedding from "../../assets/images/wedding.jpg";
 import exhibition from "../../assets/images/exhibition.jpg";
 import birth from "../../assets/images/birthday.jpg";
 import Corporate from "../../assets/images/i.webp";
 import product from "../../assets/images/product.jpg";
-import babyshower from "../../assets/images/baby shower.jpg";
-import engagement from "../../assets/images/engagement.jpg";
+import babyshower from "../../assets/images/A_M_4416.jpg";
+import engagement from "../../assets/images/04.jpg";
 import cradle from "../../assets/images/cradle.jpg";
 export default function About() {
     return (
@@ -43,8 +43,10 @@ export default function About() {
                                 <div className='weltourstu'>
                                     <h2>Welcome To Our Studio</h2>
                                 </div>
-                                <p>Magnam consequatur ipsa faucibus porro accusamus nostrud, a odit vitae! Duis cumque, vivamus turpis, et, nunc necessitatibus hendrerit! Temporibus, eos laborum porttitor perspiciatis consequat, accusamus eos incididunt odit porta class, ridiculus fusce! Lorem ipsum dolor
-                                    sit amet, consectetur adipiscing elit.</p>
+                                <p>"Step into Our Studio and Enter a World of Creativity and Inspiration.
+                                    From the moment you walk through our doors, you're greeted with warmth and professionalism.
+                                    Our team is dedicated to bringing your vision to life, whether it's a personal portrait or a commercial project.
+                                </p>
                             </div>
 
 
@@ -185,10 +187,7 @@ export default function About() {
                                 <h6>OUR MISSION</h6>
                             </div>
                             <h2>We Try For Our Customers!!</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper matt.</p>
-                            <div className='buttonab'>
-                                <button>HIRE US NOW</button>
-                            </div>
+                            <p>Your satisfaction is our top priority, and we strive to exceed your expectations at every turn.</p>
                         </div>
                         <div className='blankdiv'>
                             <div className='videocamera'>
@@ -197,7 +196,7 @@ export default function About() {
                                 </div>
                                 <div className='videoss'>
                                     <h5>Studio Videos</h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <p>Unlock the Story Dive into Our Studio Videos.</p>
                                 </div>
                             </div>
                             <div className='videocamera-one'>
@@ -206,7 +205,7 @@ export default function About() {
                                 </div>
                                 <div className='videoss'>
                                     <h5>Retouching Photo</h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <p>Elevate Your Images with Expert Retouching Services.</p>
                                 </div>
                             </div>
                         </div>
@@ -217,7 +216,7 @@ export default function About() {
                                 </div>
                                 <div className='videoss'>
                                     <h5>Studio Sessions</h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <p>Unveiling Moments, One Session at a Time.</p>
                                 </div>
                             </div>
                             <div className='videocamera-one'>
@@ -226,7 +225,7 @@ export default function About() {
                                 </div>
                                 <div className='videoss'>
                                     <h5>Print Studio</h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <p>Preserve your memories for a lifetime.</p>
                                 </div>
                             </div>
                         </div>

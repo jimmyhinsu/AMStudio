@@ -277,9 +277,12 @@ export default function Team() {
                             </div>
                             <h6>INVOLVE NOW</h6>
                             <h2>Trusted By More Than 45,000 People</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Eaque adipiscing, luctus eleifend temporibus occaecat luctus eleifend tempo ribus.</p>
+                            <p>With a track record of excellence and a commitment to exceeding expectations, we're the go-to choice for quality photography services.
+                                Experience the difference trusted expertise makes – book your session with us today."</p>
                             <div className='joinus'>
-                                <button>JOIN US NOW</button>
+                                <a href="mailto:amphotostudio15@gmail">
+                                    <button>JOIN US NOW</button>
+                                </a>
                             </div>
                         </div>
                     </div>
