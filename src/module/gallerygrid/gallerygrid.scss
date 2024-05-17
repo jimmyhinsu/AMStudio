@@ -83,6 +83,7 @@
             .threeimgs {
                 .drigirl {
                     object-fit: cover;
+                    cursor: pointer;
 
                     @media (max-width: 1024px) {
                         width: 100%;
@@ -234,6 +235,80 @@
                                 }
                             }
                         }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.modal-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    z-index: 999;
+
+    .modal-md {
+        background-color: #fff;
+        border-radius: 12px;
+        width: 850px;
+        height: 565px;
+
+        @media (max-width: 1024px) {
+            width: 700px;
+            height: 465px;
+        }
+
+        @media (max-width: 576px) {
+            width: 345px;
+            height: 230px;
+        }
+
+        .model-img {
+            position: relative;
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 12px;
+
+                @media (max-width: 1024px) {
+                    width: 100%;
+                    height: 100%;
+                }
+
+                @media (max-width: 576px) {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .model-button {
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: end;
+
+                button {
+                    height: 20px;
+                    width: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: transparent;
+                    border: none;
+                    padding: 20px;
+                    img {
+                        height: 22px;
+                        width: 22px;
                     }
                 }
             }

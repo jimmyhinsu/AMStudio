@@ -270,7 +270,7 @@ export default function About() {
                                             </div>
                                             <div className='sati'>
                                                 <span>65+</span>
-                                                <p>Satisfied Customers</p>
+                                                <p>Awards</p>
                                             </div>
                                         </div>
                                         <div className='light-color'>

@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import './gallerygrid.scss';
 import bosa2 from "../../assets/images/bosa-photography-img12.png";
 import users from "../../assets/icons/users.png";
 import videocamera from "../../assets/icons/video-camera.png";
 import trophy from "../../assets/icons/trophy.png";
 import camera1 from "../../assets/icons/camera1.png";
-import photo10 from "../../assets/images/am-(3).jpg";
+import photo10 from "../../assets/images/am-3.jpg";
 import photo11 from "../../assets/images/hirenbhumi.jpg";
 import photo12 from "../../assets/images/A_M_6216.jpg";
 import photo13 from "../../assets/images/gaurang-Nirjari.jpg";
@@ -14,9 +14,28 @@ import photo15 from "../../assets/images/A_M_3772.jpg";
 import photo16 from "../../assets/images/A_M_4299.jpg";
 import photo17 from "../../assets/images/A_M_4961.jpg";
 import photo18 from "../../assets/images/A_M-(29).jpg";
+import close from "../../assets/icons/close.png";
 
+
+const imageArray = [photo10, photo11, photo12, photo13, photo14, photo15, photo16, photo17, photo18]
 
 export default function Gallerygrid() {
+  const [isOpen, setIsOpen] = useState(false)
+  const [image, setImage] = useState()
+
+  const modalRef = useRef();
+  useEffect(() => {
+    const checkIfClickedOutside = (e) => {
+      if (isOpen && modalRef.current && !modalRef.current.contains(e.target)) {
+        setIsOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", checkIfClickedOutside);
+    return () => {
+      document.removeEventListener("mousedown", checkIfClickedOutside);
+    };
+  }, [isOpen]);
+
   return (
     <>
       <div className='bg-relative'>
@@ -32,52 +51,15 @@ export default function Gallerygrid() {
       <div className='nineimgs'>
         <div className='container'>
           <div className='cameraimgs'>
-            <div className='threeimgs'>
-              <div data-aos="zoom-in" className='drigirl'>
-                <img src={photo10} alt='error' />
-              </div>
-            </div>
-            <div className='threeimgs'>
-              <div data-aos="zoom-in" className='drigirl'>
-                <img src={photo11} alt='error' />
-              </div>
-            </div>
-            <div className='threeimgs'>
-              <div data-aos="zoom-in" className='drigirl'>
-                <img src={photo12} alt='error' />
-              </div>
-            </div>
-
-            <div className='threeimgs'>
-              <div data-aos="zoom-in" className='drigirl'>
-                <img src={photo13} alt='error' />
-              </div>
-            </div>
-            <div className='threeimgs'>
-              <div data-aos="zoom-in" className='drigirl'>
-                <img src={photo14} alt='error' />
-              </div>
-            </div>
-            <div className='threeimgs'>
-              <div data-aos="zoom-in" className='drigirl'>
-                <img src={photo15} alt='error' />
-              </div>
-            </div>
-            <div className='threeimgs'>
-              <div data-aos="zoom-in" className='drigirl'>
-                <img src={photo16} alt='error' />
-              </div>
-            </div>
-            <div className='threeimgs'>
-              <div data-aos="zoom-in" className='drigirl'>
-                <img src={photo17} alt='error' />
-              </div>
-            </div>
-            <div className='threeimgs'>
-              <div data-aos="zoom-in" className='drigirl'>
-                <img src={photo18} alt='error' />
-              </div>
-            </div>
+            {imageArray?.map((item) => {
+              return (
+                <div className='threeimgs'>
+                  <div data-aos="zoom-in" className='drigirl' onClick={() => { setIsOpen(!isOpen); setImage(item) }}>
+                    <img src={item} alt='error' />
+                  </div>
+                </div>
+              )
+            })}
           </div>
         </div>
       </div>
@@ -138,6 +120,21 @@ export default function Gallerygrid() {
           </div>
         </div>
       </div>
+
+      {isOpen && <div className='modal-wrapper'>
+        <div className='modal-md' ref={modalRef}>
+          <div className='model-img'>
+            <div className="images">
+              <img src={image} alt="error" />
+            </div>
+            <div className='model-button'>
+              <button onClick={() => setIsOpen(false)}>
+                <img src={close} alt="error" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>}
     </>
   )
 }

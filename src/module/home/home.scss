@@ -349,8 +349,8 @@
                         display: flex;
                         align-items: center;
                         @media (max-width: 1024px) {
-                            padding: 20px 0;
-                            justify-content: center;
+                            padding: 20px 20px;
+                            justify-content: start;
                         }
 
                         @media (max-width: 576px) {
@@ -819,6 +819,7 @@
                     grid-template-columns: repeat(2, 1fr);
                     gap: 20px;
                     margin-top: 35px;
+                    cursor: pointer;
 
                     @media (max-width: 576px) {
                         display: grid;
@@ -931,6 +932,10 @@
     }
 
     .slick-arrow {
+        display: none !important;
+    }
+
+    .slick-dots {
         display: none !important;
     }
 }
@@ -1807,6 +1812,81 @@
                                 }
                             }
                         }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.modal-wrapper-home {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    z-index: 999;
+
+    .modal-md {
+        background-color: #fff;
+        border-radius: 12px;
+        width: 850px;
+        height: 550px;
+
+        @media (max-width: 1024px) {
+            width: 700px;
+            height: auto;
+        }
+
+        @media (max-width: 576px) {
+            width: 345px;
+            height: auto;
+        }
+
+        .model-img {
+            position: relative;
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 12px;
+                object-fit: cover;
+
+                @media (max-width: 1024px) {
+                    width: 100%;
+                    height: 100%;
+                }
+
+                @media (max-width: 576px) {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .model-button {
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: end;
+
+                button {
+                    height: 20px;
+                    width: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: transparent;
+                    border: none;
+                    padding: 20px;
+                    img {
+                        height: 22px;
+                        width: 22px;
                     }
                 }
             }

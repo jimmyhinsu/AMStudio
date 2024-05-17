@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import './home.scss';
 import bosa from "../../assets/images/bosa-photography-img3.png";
 import bosa2 from "../../assets/images/bosa-photography-img12.png";
@@ -31,16 +31,39 @@ import instagramm from "../../assets/icons/instagram-2.png";
 import youtube1 from "../../assets/icons/youtubeb.png";
 import { Link } from 'react-router-dom';
 import Slider from "react-slick";
+import close from "../../assets/icons/close.png";
 
+const imageArray = [photo15, photo10, photo11, photo12, photo13, photo14]
 export default function Home() {
-    var settings = {
+    const [isOpen, setIsOpen] = useState(false)
+    const [image, setImage] = useState()
+
+    const modalRef = useRef();
+    useEffect(() => {
+        const checkIfClickedOutside = (e) => {
+            if (isOpen && modalRef.current && !modalRef.current.contains(e.target)) {
+                setIsOpen(false);
+            }
+        };
+        document.addEventListener("mousedown", checkIfClickedOutside);
+        return () => {
+            document.removeEventListener("mousedown", checkIfClickedOutside);
+        };
+    }, [isOpen]);
+
+
+    const settings = {
+        dots: true,
         infinite: true,
-        speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        rtl: true
     };
     return (
         <>
+
             <div className='bg-relative'>
                 <div className='background-img'>
                     <div className='backgound-overlay'>
@@ -80,9 +103,9 @@ export default function Home() {
                                 <div className='peragraph'>
                                     <p> Having a clear vision and concept for each project is crucial. Define what you want to convey through your photographs and ensure consistency in style and theme.Thorough planning and preparation are essential. This includes scouting locations, arranging props or models, and considering lighting conditions.</p>
                                     <div className='button2'>
-                                        <a href="/about">
+                                        <Link to={'./about'}>
                                             <button type='button'>LEARN MORE</button>
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -260,7 +283,7 @@ export default function Home() {
                                             </div>
                                             <div className='sati'>
                                                 <span>65+</span>
-                                                <p>awards</p>
+                                                <p>Awards</p>
                                             </div>
                                         </div>
                                         <div className='light-color'>
@@ -291,24 +314,15 @@ export default function Home() {
                             </div>
 
                             <div className='allimgs'>
-                                <div data-aos="fade-down-right" className='imgsmarr'>
-                                    <img src={photo15} alt='arror' />
-                                </div>
-                                <div data-aos="fade-down-right" className='imgsmarr'>
-                                    <img src={photo10} alt='arror' />
-                                </div>
-                                <div data-aos="fade-down-right" className='imgsmarr'>
-                                    <img src={photo11} alt='arror' />
-                                </div>
-                                <div data-aos="fade-down-left" className='imgsmarr'>
-                                    <img src={photo13} alt='arror' />
-                                </div>
-                                <div data-aos="fade-down-left" className='imgsmarr'>
-                                    <img src={photo14} alt='arror' />
-                                </div>
-                                <div data-aos="fade-down-left" className='imgsmarr'>
-                                    <img src={photo12} alt='arror' />
-                                </div>
+                                {imageArray?.map((item) => {
+                                    return (
+                                        <div className='imgsmarr '>
+                                            <div data-aos="zoom-in" className='drigirl' onClick={() => { setIsOpen(!isOpen); setImage(item) }}>
+                                                <img src={item} alt='error' />
+                                            </div>
+                                        </div>
+                                    )
+                                })}
                             </div>
                         </div>
                     </div>
@@ -615,6 +629,21 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+
+            {isOpen && <div className='modal-wrapper-home'>
+                <div className='modal-md' ref={modalRef}>
+                    <div className='model-img'>
+                        <div className="images">
+                            <img src={image} alt="error" />
+                        </div>
+                        <div className='model-button'>
+                            <button onClick={() => setIsOpen(false)}>
+                                <img src={close} alt="error" />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>}
         </>
     )
 }

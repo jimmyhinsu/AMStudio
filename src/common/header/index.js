@@ -10,7 +10,6 @@ import twiter from "../../assets/icons/twitter.png";
 import youtube from "../../assets/icons/video.png";
 import insta from "../../assets/icons/instagram.png";
 import linkedin from "../../assets/icons/linkedin-logo.png";
-// import search from "../../assets/icons/search.png";
 import menu from "../../assets/icons/menu.png";
 import { Link } from 'react-router-dom';
 
@@ -85,7 +84,7 @@ export default function Header() {
                                 <img src={youtube} alt="error" />
                             </div> */}
                             <div className='logos'>
-                                <a href="https://www.instagram.com/amphotostudio15" target='_blank'>
+                                <a href="https://www.instagram.com/am_photo_studio_/" target='_blank'>
                                     <img src={insta} alt="error" />
                                 </a>
                             </div>
