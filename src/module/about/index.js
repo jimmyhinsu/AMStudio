@@ -19,9 +19,10 @@ import babyshower from "../../assets/images/A_M_4416.jpg";
 import engagement from "../../assets/images/04.jpg";
 import cradle from "../../assets/images/cradle.jpg";
 export default function About() {
+
     return (
         <>
-            <div className='bg-relative'>
+            <div className='bg-relative' >
                 <div className='background-img-one'>
                     <div className='backgound-overlay'>
                         <div className='feature'>

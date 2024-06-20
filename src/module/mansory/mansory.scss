@@ -112,16 +112,22 @@
                     }
 
                     .imgsmarr {
-                        img {
-                            height: 100%;
-                            width: 100%;
-                            &:hover {
-                                opacity: 0.6;
-                            }
-                        }
+                        .drigir {
+                            object-fit: cover;
+                            cursor: pointer;
 
-                        @media (max-width: 1024px) {
-                            width: 100%;
+                            img {
+                                height: 100%;
+                                width: 100%;
+                                &:hover {
+                                    opacity: 0.6;
+                                }
+                            }
+
+                            @media (max-width: 1024px) {
+                                width: 100%;
+                                height: 100%;
+                            }
                         }
                     }
                 }

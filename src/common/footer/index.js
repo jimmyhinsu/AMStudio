@@ -48,14 +48,14 @@ export default function Footer() {
                                     <div className='townum'>
                                         <img src={call} alt="error" />
                                     </div>
-                                    <a href='callto:9909796518' target='_blank'>9909796518</a>
+                                    <a href='callto:9909796518' target='_blank' rel="noreferrer">9909796518</a>
                                 </div>
 
                                 <div className='flexdiv'>
                                     <div className='townum'>
                                         <img src={location} alt="error" />
                                     </div>
-                                    <a href='https://maps.app.goo.gl/Fp9DacwfA14mp7mG8' target='_blank'>𝖲𝗁𝗈𝗉 𝖭𝗈.324, 3th Floor, Angel Business Center-1,
+                                    <a href='https://maps.app.goo.gl/Fp9DacwfA14mp7mG8' target='_blank' rel="noreferrer">𝖲𝗁𝗈𝗉 𝖭𝗈.324, 3th Floor, Angel Business Center-1,
                                         ABC Circle, Mota Varachha,
                                         Surat, Gujarat 394101
                                     </a>
@@ -65,7 +65,7 @@ export default function Footer() {
                                     <div className='townum'>
                                         <img src={mail} alt="error" />
                                     </div>
-                                    <a href='mailto:amphotostudio15@gmail.com' target='_blank'> amphotostudio15@gmail.com</a>
+                                    <a href='mailto:amphotostudio15@gmail.com' target='_blank' rel="noreferrer"> amphotostudio15@gmail.com</a>
                                 </div>
                             </div>
                         </div>
@@ -119,7 +119,7 @@ export default function Footer() {
                             </div> */}
                             <div className='threelogos'>
                                 <div className='logosdeign'>
-                                    <a href="https://www.instagram.com/am_photo_studio_/" target='_blank'>
+                                    <a href="https://www.instagram.com/am_photo_studio_/" target='_blank' rel="noreferrer">
                                         <img src={insta} alt="error" />
                                     </a>
                                 </div>
@@ -127,7 +127,7 @@ export default function Footer() {
                             </div>
                             <div className='threelogos'>
                                 <div className='logosdeign'>
-                                    <a href="https://maps.app.goo.gl/Fp9DacwfA14mp7mG8" target='_blank'>
+                                    <a href="https://maps.app.goo.gl/Fp9DacwfA14mp7mG8" target='_blank' rel="noreferrer">
                                         <img src={google} alt="error" />
                                     </a>
                                 </div>

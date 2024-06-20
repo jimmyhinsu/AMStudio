@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef, useState } from 'react'
 import './mansory.scss';
 import bosa2 from "../../assets/images/bosa-photography-img12.png";
 import users from "../../assets/icons/users.png";
@@ -11,10 +11,27 @@ import photo15 from "../../assets/images/01+.jpg";
 import photo13 from "../../assets/images/wedding-gallery.jpg"
 import trophy from "../../assets/icons/trophy.png";
 import camera1 from "../../assets/icons/camera1.png";
-import Slider from "react-slick";
+import { useEffect } from 'react';
+import close from "../../assets/icons/close.png";
+
+const imageArray = [photo15, photo10, photo11, photo13, photo14, photo12]
 
 export default function Mansory() {
+    const [isOpen, setIsOpen] = useState(false)
+    const [image, setImage] = useState()
 
+    const modalRef = useRef();
+    useEffect(() => {
+        const checkIfClickedOutside = (e) => {
+            if (isOpen && modalRef.current && !modalRef.current.contains(e.target)) {
+                setIsOpen(false);
+            }
+        };
+        document.addEventListener("mousedown", checkIfClickedOutside);
+        return () => {
+            document.removeEventListener("mousedown", checkIfClickedOutside);
+        };
+    }, [isOpen]);
     return (
         <>
             <div className='bg-relative'>
@@ -37,25 +54,17 @@ export default function Mansory() {
                                 <h2>Checkout Our Gallery</h2>
                             </div>
 
-                            <div className='allimgs'>
-                                <div data-aos="fade-down-right" className='imgsmarr'>
-                                    <img src={photo15} alt='arror' />
-                                </div>
-                                <div data-aos="fade-down-right" className='imgsmarr'>
-                                    <img src={photo10} alt='arror' />
-                                </div>
-                                <div data-aos="fade-down-right" className='imgsmarr'>
-                                    <img src={photo11} alt='arror' />
-                                </div>
-                                <div data-aos="fade-down-left" className='imgsmarr'>
-                                    <img src={photo13} alt='arror' />
-                                </div>
-                                <div data-aos="fade-down-left" className='imgsmarr'>
-                                    <img src={photo14} alt='arror' />
-                                </div>
-                                <div data-aos="fade-down-left" className='imgsmarr'>
-                                    <img src={photo12} alt='arror' />
-                                </div>
+                             <div className='allimgs'>
+                                {imageArray?.map((item) => {
+                                    return (
+                                        <div className='imgsmarr'>
+                                            <div data-aos="fade-down-right" className='drigir' onClick={() => { setIsOpen(!isOpen); setImage(item) }}>
+                                                <img src={item} alt='error' />
+                                            </div>
+                                        </div>
+                                    )
+                                })}
+
                             </div>
                         </div>
                     </div>
@@ -143,6 +152,21 @@ export default function Mansory() {
                     </div>
                 </div>
             </div>
+
+            {isOpen && <div className='modal-wrapper'>
+                <div className='modal-md' ref={modalRef}>
+                    <div className='model-img'>
+                        <div className="images">
+                            <img src={image} alt="error" />
+                        </div>
+                        <div className='model-button'>
+                            <button onClick={() => setIsOpen(false)}>
+                                <img src={close} alt="error" />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>}
         </>
     )
 }

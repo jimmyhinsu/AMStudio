@@ -61,9 +61,10 @@ export default function Home() {
         autoplaySpeed: 1500,
         rtl: true
     };
-    return (
-        <>
 
+
+    return (
+        < >
             <div className='bg-relative'>
                 <div className='background-img'>
                     <div className='backgound-overlay'>
@@ -209,7 +210,7 @@ export default function Home() {
                                     </div>
                                     <div className='maininteractive'>
                                         <div className='detail'>
-                                            <span>03.</span>
+                                            <span>02.</span>
                                             <h5>Cutting Edge Technology</h5>
                                         </div>
                                         <p>Revolutionizing imagery with cutting-edge tech solutions. Where innovation meets your visual aspirations.</p>
@@ -221,7 +222,7 @@ export default function Home() {
                                 <div className='forwidth1'>
                                     <div className='maininteractive'>
                                         <div className='detail'>
-                                            <span>02.</span>
+                                            <span>03.</span>
                                             <h5>Effective Workflow</h5>
                                         </div>
                                         <p>Streamlining your visual narrative from capture to delivery. Efficient workflow solutions tailored for your photography needs.</p>
@@ -554,7 +555,7 @@ export default function Home() {
                                 <div className='ouradd'>
                                     <div className='allmain'>
                                         <div className='borderside1'>
-                                            <a href="mailto:amphotostudio15@gmail" target='_blank'>
+                                            <a href="mailto:amphotostudio15@gmail" target='_blank' rel="noreferrer">
                                                 <div className='firstlogo'>
                                                     <div className='logoround'>
                                                         <img src={email2} alt='error' />
@@ -570,7 +571,7 @@ export default function Home() {
                                         </div>
 
                                         <div className='borderside2'>
-                                            <a href="callto:9909796518" target='_blank'>
+                                            <a href="callto:9909796518" target='_blank' rel="noreferrer">
                                                 <div className='firstlogo'>
                                                     <div className='logoround'>
                                                         <img src={call1} alt='error' />
@@ -591,7 +592,7 @@ export default function Home() {
                                         <div className='borderside3'>
 
 
-                                            <a href="https://maps.app.goo.gl/Fp9DacwfA14mp7mG8" target='_blank'>
+                                            <a href="https://maps.app.goo.gl/Fp9DacwfA14mp7mG8" target='_blank' rel="noreferrer">
                                                 <div className='firstlogo'>
                                                     <div className='logoround'>
                                                         <img src={address} alt='error' />
@@ -607,7 +608,7 @@ export default function Home() {
                                         </div>
 
                                         <div className='borderside4'>
-                                            <a href="https://maps.app.goo.gl/Fp9DacwfA14mp7mG8" target='_blank'>
+                                            <a href="https://maps.app.goo.gl/Fp9DacwfA14mp7mG8" target='_blank' rel="noreferrer">
                                                 <div className='firstlogo'>
                                                     <div className='logoround'>
                                                         <img src={alaram} alt='error' />

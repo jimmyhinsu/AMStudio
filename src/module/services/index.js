@@ -283,7 +283,7 @@ export default function Services() {
                                     </div>
                                     <div className='maininteractive'>
                                         <div className='detail'>
-                                            <span>03.</span>
+                                            <span>02.</span>
                                             <h5>Cutting Edge Technology</h5>
                                         </div>
                                         <p>Revolutionizing imagery with cutting-edge tech solutions. Where innovation meets your visual aspirations.</p>
@@ -295,7 +295,7 @@ export default function Services() {
                                 <div className='forwidth1'>
                                     <div className='maininteractive'>
                                         <div className='detail'>
-                                            <span>02.</span>
+                                            <span>03.</span>
                                             <h5>Effective Workflow</h5>
                                         </div>
                                         <p>Streamlining your visual narrative from capture to delivery. Efficient workflow solutions tailored for your photography needs.</p>
